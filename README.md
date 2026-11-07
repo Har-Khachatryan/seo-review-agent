@@ -56,7 +56,7 @@ python -m agent.run             # and send to Telegram
 python -m agent.run --replay    # re-review the last snapshot without crawling again (for testing)
 ```
 
-On GitHub: add the four values as repository secrets (`GOOGLE_API_KEY`, `ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`). Run time is about 3–4 minutes. The review runs on Claude Haiku 5.5 and costs well under a cent a day (the exact token count of each run is saved in `data/findings/`); setting `MODEL = "claude-opus-5-5"` in `agent/config.py` gives a more thorough review at roughly $0.10 a day.
+On GitHub: add the four values as repository secrets (`GOOGLE_API_KEY`, `ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`). Run time is about 3–4 minutes. Every run, a re-run included, starts from the latest commit on `main`; a second run on the same day replaces that day's review and still compares with the day before. The review runs on Claude Haiku 5.5 and costs well under a cent a day (the exact token count of each run is saved in `data/findings/`); setting `MODEL = "claude-opus-5-5"` in `agent/config.py` gives a more thorough review at roughly $0.10 a day.
 
 ## What it cannot do yet, and what I would add
 

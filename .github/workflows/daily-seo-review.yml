@@ -17,7 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      # The branch's latest commit, not the commit the run was first started on:
+      # "Re-run" then also uses today's code, and its save step can push.
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v7
         with:
@@ -40,5 +44,7 @@ jobs:
           git config user.name "seo-review-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data reports
-          git commit -m "SEO review $(date -u +%F)" || echo "Nothing new to save"
-          git push
+          if git diff --cached --quiet; then echo "Nothing new to save"; exit 0; fi
+          git commit -m "SEO review $(date -u +%F)"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"   # code pushed while the run was going
+          git push origin "HEAD:$GITHUB_REF_NAME"
