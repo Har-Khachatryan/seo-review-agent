@@ -44,7 +44,8 @@ def state_checks(s):
             out.append(F(fid, sev, kind, title, detail.format(n=len(urls)), urls))
 
     group("status_5xx", "critical", "availability", "Sitemap pages return a server error",
-          "{n} page(s) in the sitemap return HTTP 5xx or do not answer.", lambda p: (p.get("status") or 0) >= 500 or p.get("status") == 0)
+          f"{{n}} page(s) in the sitemap returned HTTP 5xx or did not answer twice in a row, {C.RETRY_PAUSE_S} s apart, so it is not a passing hiccup.",
+          lambda p: (p.get("status") or 0) >= 500 or p.get("status") == 0)
     group("status_4xx", "critical", "availability", "Sitemap pages return a client error",
           "{n} page(s) in the sitemap return HTTP 4xx (likely 404).", lambda p: 400 <= (p.get("status") or 0) < 500)
     group("sitemap_redirects", "medium", "indexing", "Sitemap lists URLs that redirect",

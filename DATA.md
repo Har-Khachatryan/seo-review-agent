@@ -8,8 +8,8 @@ Every morning the agent takes a fresh snapshot of **searchbloom.com** from publi
 |---|---|---|
 | **robots.txt** | `https://www.searchbloom.com/robots.txt`, fetched daily | Whether Googlebot, Bingbot and AI crawlers (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, PerplexityBot, Google-Extended, CCBot) may crawl the site; any change from yesterday |
 | **XML sitemaps** | The sitemap index named in robots.txt (`sitemap_index.xml`, 9 child sitemaps from Rank Math) | The list of pages the site wants indexed (283 today) with their last-modified dates: pages added, removed or updated |
-| **Every sitemap page** | Each URL fetched once a day, four at a time, with an identifying user agent | HTTP status, redirects, HTML response time, title, meta description, canonical, robots meta and X-Robots-Tag, H1s, word count, JSON-LD structured-data types |
-| **Internal links** | Every link from those pages to the same site (535 today); those not in the sitemap are checked as well | Broken internal links and the page each one sits on |
+| **Every sitemap page** | Each URL fetched once a day, four at a time, with an identifying user agent. A server error or no answer is asked once more 5 s later, and a response slower than 1.5 s is timed again, so a passing hiccup or a cold cache is not reported as a problem; the first answer is kept (`first_try`, `ms_retry`) | HTTP status, redirects, HTML response time, title, meta description, canonical, robots meta and X-Robots-Tag, H1s, word count, JSON-LD structured-data types |
+| **Internal links** | Every link from those pages to the same site (535 today); those not in the sitemap are checked as well, with the same retry | Broken internal links and the page each one sits on |
 | **PageSpeed Insights API** (Google) | 5 key pages, mobile: home, GEO service, AEO service, the "Best AI SEO Companies" guide, ecommerce SEO | Lab performance (score, LCP, CLS, TBT) and **real-user Core Web Vitals from the Chrome UX Report** (p75 LCP, INP, CLS for the page and for the whole site) |
 
 ## Files

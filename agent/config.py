@@ -22,6 +22,7 @@ CRAWLERS = ["Googlebot", "Bingbot", "Google-Extended", "GPTBot", "OAI-SearchBot"
 USER_AGENT = "Mozilla/5.0 (compatible; DailySEOReview/1.0; candidate-task-agent)"
 CRAWL_WORKERS = 4          # polite: four requests at a time
 TIMEOUT = 25               # seconds per request
+RETRY_PAUSE_S = 5          # a server error or no answer is asked once more after this pause
 MAX_EXTRA_LINKS = 600     # internal links outside the sitemap checked per day
 
 # Thresholds

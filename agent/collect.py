@@ -134,20 +134,40 @@ def _internal(href, base):
     return None
 
 
+def _get_page(url):
+    """GET a page. A server error or no answer is asked once more after a pause, so a passing
+    hiccup at the server or CDN (a 504 in under 200 ms, say) is not reported as a broken page.
+    Returns (response or None, ms, error name, first_try); first_try is the failed first answer,
+    a status code or an error name, when a second try was needed."""
+    first_try = None
+    for attempt in range(2):
+        try:
+            r, ms = get(url, allow_redirects=True)
+            error = None
+        except requests.RequestException as e:
+            r, ms, error = None, None, type(e).__name__
+        if r is not None and r.status_code < 500:
+            break
+        if attempt == 0:
+            first_try = r.status_code if r is not None else error
+            time.sleep(C.RETRY_PAUSE_S)
+    return r, ms, error, first_try
+
+
 def fetch_page(url):
-    out = {"status": None}
-    try:
-        r, ms = get(url, allow_redirects=True)
-    except requests.RequestException as e:
-        return {"status": 0, "error": type(e).__name__}
-    out.update({
+    r, ms, error, first_try = _get_page(url)
+    retried = {"first_try": first_try} if first_try is not None else {}
+    if r is None:
+        return {"status": 0, "error": error, **retried}
+    out = {
         "status": r.status_code,
         "final_url": r.url if r.url != url else None,
         "redirects": len(r.history),
         "ms": ms,
         "bytes": len(r.content),
         "x_robots": r.headers.get("X-Robots-Tag"),
-    })
+        **retried,
+    }
     if r.ok and "html" in r.headers.get("Content-Type", ""):
         p = PageParser()
         p.feed(r.text)
@@ -172,6 +192,25 @@ def fetch_page(url):
     return out
 
 
+def link_status(u):
+    """HTTP status of a linked URL (0 = no answer); like pages, a server error or no answer is
+    asked once more after a pause before the link counts as broken."""
+    status = 0
+    for attempt in range(2):
+        try:
+            r = session.head(u, timeout=C.TIMEOUT, allow_redirects=True)
+            if r.status_code in (405, 403):
+                r = session.get(u, timeout=C.TIMEOUT)
+            status = r.status_code
+        except requests.RequestException:
+            status = 0
+        if 0 < status < 500:
+            break
+        if attempt == 0:
+            time.sleep(C.RETRY_PAUSE_S)
+    return status
+
+
 def collect_pages(urls):
     with ThreadPoolExecutor(C.CRAWL_WORKERS) as pool:
         results = dict(zip(urls, pool.map(fetch_page, urls)))
@@ -181,18 +220,8 @@ def collect_pages(urls):
         for link in data.pop("_links", []):
             linked.setdefault(link, page)
     extra = [u for u in linked if u not in results and u.rstrip("/") + "/" not in results][: C.MAX_EXTRA_LINKS]
-
-    def head(u):
-        try:
-            r = session.head(u, timeout=C.TIMEOUT, allow_redirects=True)
-            if r.status_code in (405, 403):
-                r = session.get(u, timeout=C.TIMEOUT)
-            return r.status_code
-        except requests.RequestException:
-            return 0
-
     with ThreadPoolExecutor(C.CRAWL_WORKERS) as pool:
-        statuses = dict(zip(extra, pool.map(head, extra)))
+        statuses = dict(zip(extra, pool.map(link_status, extra)))
     links = {u: {"status": s, "found_on": linked[u]} for u, s in statuses.items()}
     return results, links, len(linked)
 
