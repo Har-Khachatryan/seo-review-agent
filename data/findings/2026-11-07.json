@@ -1,0 +1,327 @@
+{
+ "date": "2026-11-07",
+ "summary": {
+  "pages_in_sitemap": 283,
+  "pages_ok": 283,
+  "sitemaps": {
+   "post-sitemap.xml": 112,
+   "page-sitemap.xml": 45,
+   "comparison-sitemap.xml": 2,
+   "strategy-sitemap.xml": 36,
+   "case_studies-sitemap.xml": 35,
+   "team-sitemap.xml": 7,
+   "sb_services-sitemap.xml": 33,
+   "toolset-sitemap.xml": 12,
+   "local-sitemap.xml": 1
+  },
+  "median_response_ms": 737,
+  "internal_links_found": 535,
+  "crawler_access": {
+   "Googlebot": true,
+   "Bingbot": true,
+   "Google-Extended": true,
+   "GPTBot": true,
+   "OAI-SearchBot": true,
+   "ChatGPT-User": true,
+   "ClaudeBot": true,
+   "Claude-SearchBot": true,
+   "PerplexityBot": true,
+   "CCBot": true
+  },
+  "psi": {
+   "https://www.searchbloom.com/": {
+    "score": 76,
+    "lcp_ms": 3844,
+    "cls": 0,
+    "tbt_ms": 78,
+    "field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2382,
+     "inp_ms": 213,
+     "cls": 0.0
+    }
+   },
+   "https://www.searchbloom.com/generative-engine-optimization/": {
+    "score": 81,
+    "lcp_ms": 2961,
+    "cls": 0,
+    "tbt_ms": 255,
+    "field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2241,
+     "inp_ms": 275,
+     "cls": 0.0
+    }
+   },
+   "https://www.searchbloom.com/answer-engine-optimization/": {
+    "score": 56,
+    "lcp_ms": 10973,
+    "cls": 0.003,
+    "tbt_ms": 452,
+    "field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2241,
+     "inp_ms": 275,
+     "cls": 0.0
+    }
+   },
+   "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/": {
+    "score": 54,
+    "lcp_ms": 10790,
+    "cls": 0,
+    "tbt_ms": 472,
+    "field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2241,
+     "inp_ms": 275,
+     "cls": 0.0
+    }
+   },
+   "https://www.searchbloom.com/ecommerce-seo/": {
+    "score": 75,
+    "lcp_ms": 4951,
+    "cls": 0.011,
+    "tbt_ms": 152,
+    "field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2241,
+     "inp_ms": 275,
+     "cls": 0.0
+    }
+   }
+  },
+  "site_core_web_vitals": {
+   "overall": "AVERAGE",
+   "lcp_ms": 2241,
+   "inp_ms": 275,
+   "cls": 0.0
+  }
+ },
+ "findings": [
+  {
+   "id": "broken_internal_links",
+   "severity": "high",
+   "kind": "links",
+   "title": "Broken internal links",
+   "detail": "3 internal link(s) point to URLs that return an error, so visitors and crawlers hit dead ends. Each sits on a live page (linked_from): fix the link there, or redirect the dead URL.",
+   "count": 3,
+   "urls": [
+    "https://www.searchbloom.com/blog/3-easy-tips-to-creating-content-people-will-share/",
+    "https://www.searchbloom.com/blog/4-old-school-seo-tactics-to-stop-now/",
+    "https://www.searchbloom.com/blog/landing-pages-for-events/"
+   ],
+   "data": {
+    "broken_links": [
+     {
+      "dead_url": "https://www.searchbloom.com/blog/3-easy-tips-to-creating-content-people-will-share/",
+      "status": 404,
+      "linked_from": "https://www.searchbloom.com/blog/brand-building-through-storytelling/"
+     },
+     {
+      "dead_url": "https://www.searchbloom.com/blog/4-old-school-seo-tactics-to-stop-now/",
+      "status": 404,
+      "linked_from": "https://www.searchbloom.com/blog/seo-is-dead/"
+     },
+     {
+      "dead_url": "https://www.searchbloom.com/blog/landing-pages-for-events/",
+      "status": 404,
+      "linked_from": "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
+     }
+    ]
+   },
+   "status": "new"
+  },
+  {
+   "id": "missing_meta",
+   "severity": "medium",
+   "kind": "on-page",
+   "title": "Pages without a meta description",
+   "detail": "8 page(s) have no meta description.",
+   "count": 8,
+   "urls": [
+    "https://www.searchbloom.com/sitemap/",
+    "https://www.searchbloom.com/case-studies/ads/ecommerce-seed-store/",
+    "https://www.searchbloom.com/team/jordan-rininger/",
+    "https://www.searchbloom.com/team/elizabeth-wise/",
+    "https://www.searchbloom.com/team/jonathan-rogers/",
+    "https://www.searchbloom.com/team/jordan-conner/",
+    "https://www.searchbloom.com/team/cody-c-jensen/",
+    "https://www.searchbloom.com/team/callie-king-stevens/"
+   ],
+   "data": {},
+   "status": "new"
+  },
+  {
+   "id": "h1_missing",
+   "severity": "medium",
+   "kind": "on-page",
+   "title": "Pages without an H1",
+   "detail": "7 page(s) have no H1 heading.",
+   "count": 7,
+   "urls": [
+    "https://www.searchbloom.com/awards/",
+    "https://www.searchbloom.com/contact-us/",
+    "https://www.searchbloom.com/sitemap/",
+    "https://www.searchbloom.com/team/",
+    "https://www.searchbloom.com/tools/",
+    "https://www.searchbloom.com/compare/",
+    "https://www.searchbloom.com/strategy/"
+   ],
+   "data": {},
+   "status": "new"
+  },
+  {
+   "id": "long_meta",
+   "severity": "low",
+   "kind": "on-page",
+   "title": "Meta descriptions likely cut off",
+   "detail": "44 meta description(s) are longer than 165 characters.",
+   "count": 44,
+   "urls": [
+    "https://www.searchbloom.com/blog/5-steps-to-better-meta-descriptions/",
+    "https://www.searchbloom.com/blog/seo-not-the-sole-path-to-site-traffic/",
+    "https://www.searchbloom.com/blog/three-cheers-for-negative-reviews/",
+    "https://www.searchbloom.com/blog/want-big-ppc-results-think-small/",
+    "https://www.searchbloom.com/blog/meta-descriptions-improve-seo/",
+    "https://www.searchbloom.com/blog/think-like-the-customer/",
+    "https://www.searchbloom.com/blog/social-reputation-management/",
+    "https://www.searchbloom.com/blog/15-seo-tips-for-ecommerce-seo/",
+    "https://www.searchbloom.com/blog/4-pinterest-tips-for-non-e-commerce-companies/",
+    "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
+   ],
+   "data": {},
+   "status": "new"
+  },
+  {
+   "id": "long_title",
+   "severity": "low",
+   "kind": "on-page",
+   "title": "Titles likely cut off in results",
+   "detail": "41 title(s) are longer than 65 characters.",
+   "count": 41,
+   "urls": [
+    "https://www.searchbloom.com/blog/how-to-make-sure-your-seo-delivers-the-roi-you-are-seeking/",
+    "https://www.searchbloom.com/blog/ecommerce-on-page-seo-tactics-you-need-to-pay-attention-to/",
+    "https://www.searchbloom.com/blog/6-ways-smaller-companies-can-keep-up-with-ecommerce-giants/",
+    "https://www.searchbloom.com/blog/why-topical-authority-may-be-the-most-critical-aspect-of-seo/",
+    "https://www.searchbloom.com/blog/seo-content-frameworks-guide/",
+    "https://www.searchbloom.com/blog/38-conversion-rate-optimization-recommendations-tips-to-test-searchbloom/",
+    "https://www.searchbloom.com/blog/google-search-great-decoupling-clicks-impressions/",
+    "https://www.searchbloom.com/blog/information-gain-score/",
+    "https://www.searchbloom.com/blog/embedding-audit-seo/",
+    "https://www.searchbloom.com/blog/information-gain-density/"
+   ],
+   "data": {},
+   "status": "new"
+  },
+  {
+   "id": "h1_multiple",
+   "severity": "low",
+   "kind": "on-page",
+   "title": "Pages with more than one H1",
+   "detail": "2 page(s) have several H1 headings.",
+   "count": 2,
+   "urls": [
+    "https://www.searchbloom.com/blog/surfer-ai-content-review-the-ultimate-guide/",
+    "https://www.searchbloom.com/blog/ultimate-guide-to-shopify-seo-6-steps-for-success/"
+   ],
+   "data": {},
+   "status": "new"
+  }
+ ],
+ "resolved": [],
+ "first_run": true,
+ "review": {
+  "status": "amber",
+  "headline": "All 283 sitemap pages load and every major crawler is allowed, but 3 internal links are broken and several pages have missing or messy titles, meta descriptions, and H1s.",
+  "priorities": [
+   {
+    "title": "Broken internal links point to 404 pages",
+    "severity": "high",
+    "is_new": true,
+    "why": "Three live blog posts link to dead URLs, creating dead ends for visitors and crawlers and wasting internal link equity.",
+    "action": "Content team should update the links on the three source posts to working URLs, or SEO should set 301 redirects from the dead URLs to the closest matching page.",
+    "urls": [
+     "https://www.searchbloom.com/blog/3-easy-tips-to-creating-content-people-will-share/",
+     "https://www.searchbloom.com/blog/4-old-school-seo-tactics-to-stop-now/",
+     "https://www.searchbloom.com/blog/landing-pages-for-events/",
+     "https://www.searchbloom.com/blog/brand-building-through-storytelling/",
+     "https://www.searchbloom.com/blog/seo-is-dead/",
+     "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
+    ]
+   },
+   {
+    "title": "Pages without a meta description",
+    "severity": "medium",
+    "is_new": true,
+    "why": "Eight pages have no meta description, so search engines and AI answers must pick their own snippet text, which is less controlled.",
+    "action": "SEO or page owners should write a unique meta description of roughly 120 to 155 characters for each listed page, starting with the team and case-study pages.",
+    "urls": [
+     "https://www.searchbloom.com/sitemap/",
+     "https://www.searchbloom.com/case-studies/ads/ecommerce-seed-store/",
+     "https://www.searchbloom.com/team/jordan-rininger/",
+     "https://www.searchbloom.com/team/elizabeth-wise/",
+     "https://www.searchbloom.com/team/jonathan-rogers/",
+     "https://www.searchbloom.com/team/jordan-conner/",
+     "https://www.searchbloom.com/team/cody-c-jensen/",
+     "https://www.searchbloom.com/team/callie-king-stevens/"
+    ]
+   },
+   {
+    "title": "Pages with a missing or duplicate H1",
+    "severity": "medium",
+    "is_new": true,
+    "why": "Seven pages have no H1, and two posts have several H1s, which weakens the main topic signal for search and AI systems.",
+    "action": "Web team should add one descriptive H1 to each page without one and reduce the two posts to a single H1, with the rest as H2s.",
+    "urls": [
+     "https://www.searchbloom.com/awards/",
+     "https://www.searchbloom.com/contact-us/",
+     "https://www.searchbloom.com/sitemap/",
+     "https://www.searchbloom.com/team/",
+     "https://www.searchbloom.com/tools/",
+     "https://www.searchbloom.com/compare/",
+     "https://www.searchbloom.com/strategy/",
+     "https://www.searchbloom.com/blog/surfer-ai-content-review-the-ultimate-guide/",
+     "https://www.searchbloom.com/blog/ultimate-guide-to-shopify-seo-6-steps-for-success/"
+    ]
+   },
+   {
+    "title": "Lab LCP very slow on two pages",
+    "severity": "low",
+    "is_new": true,
+    "why": "Lab LCP is about 11 seconds on two strategy and AEO pages with scores of 54 and 56, though site-wide field LCP is good at 2.2 seconds.",
+    "action": "Web team should check the hero image and any large above-the-fold assets on these two pages, then re-run PageSpeed to confirm; the field data is site-wide, not per page.",
+    "urls": [
+     "https://www.searchbloom.com/answer-engine-optimization/",
+     "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/"
+    ]
+   },
+   {
+    "title": "Titles and meta descriptions likely truncated in results",
+    "severity": "low",
+    "is_new": true,
+    "why": "41 titles exceed 65 characters and 44 meta descriptions exceed 165, so some wording may be cut off in search results.",
+    "action": "SEO should trim the longest titles and meta descriptions on the next editorial pass, starting with the highest-traffic posts, since this is a cosmetic fix.",
+    "urls": [
+     "https://www.searchbloom.com/blog/how-to-make-sure-your-seo-delivers-the-roi-you-are-seeking/",
+     "https://www.searchbloom.com/blog/ecommerce-on-page-seo-tactics-you-need-to-pay-attention-to/",
+     "https://www.searchbloom.com/blog/5-steps-to-better-meta-descriptions/",
+     "https://www.searchbloom.com/blog/seo-not-the-sole-path-to-site-traffic/"
+    ]
+   }
+  ],
+  "changes": "First run, so there is no earlier baseline; every finding is new today and nothing has been compared or marked resolved yet.",
+  "healthy": [
+   "All 283 sitemap pages return OK, with a median response time of 737 ms.",
+   "Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot and other major crawlers are allowed in robots.txt.",
+   "Site-wide field Core Web Vitals are good: LCP 2.24 s, INP 275 ms and CLS 0.0.",
+   "The homepage and generative-engine-optimization page have healthy lab scores of 76 and 81."
+  ],
+  "_written_by": "claude-haiku-5-5",
+  "_tokens": {
+   "in": 4632,
+   "out": 2548
+  },
+  "notes": []
+ }
+}
