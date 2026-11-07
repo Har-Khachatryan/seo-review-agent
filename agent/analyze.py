@@ -111,30 +111,51 @@ def state_checks(s):
             out.append(F("psi_failed", "medium", "performance", "PageSpeed could not test some pages",
                          f"PageSpeed Insights could not test {len(psi_down)} page(s) ({reasons}); Google may be unable to load them.",
                          list(psi_down)))
+    # Real users across the whole site (Chrome UX Report, via PageSpeed): judged once, not per page.
+    site = next((p["origin_field"] for p in s["psi"].values() if p.get("origin_field")), None)
+    if site:
+        problems, sev = rate_field(site)
+        if problems:
+            out.append(F("cwv_site", sev, "performance", "Site-wide Core Web Vitals need work",
+                         "Real users across the whole site: " + "; ".join(problems) + ".", data=site))
     for url, p in s["psi"].items():
         if "error" in p:
             continue
         problems, sev = [], None
         if p["score"] < C.PSI_SCORE_POOR:
-            problems.append(f"performance score {p['score']}/100")
+            problems.append(f"lab performance score {p['score']}/100")
             sev = "medium"
-        fld = p.get("field") or p.get("origin_field")
-        src = "real users" if p.get("field") else "real users (whole site)"
-        if fld:
-            if fld.get("lcp_ms") and fld["lcp_ms"] > C.LCP_POOR_MS:
-                problems.append(f"LCP {fld['lcp_ms']} ms for {src} (poor > {C.LCP_POOR_MS})"); sev = "high"
-            elif fld.get("lcp_ms") and fld["lcp_ms"] > C.LCP_GOOD_MS:
-                problems.append(f"LCP {fld['lcp_ms']} ms for {src} (needs improvement)"); sev = sev or "medium"
-            if fld.get("inp_ms") and fld["inp_ms"] > C.INP_POOR_MS:
-                problems.append(f"INP {fld['inp_ms']} ms for {src} (poor)"); sev = "high"
-            if fld.get("cls") is not None and fld["cls"] > C.CLS_POOR:
-                problems.append(f"CLS {fld['cls']} for {src} (poor)"); sev = "high"
+        if p.get("field"):  # this page has its own real-user data
+            more, fsev = rate_field(p["field"])
+            problems += more
+            sev = min([x for x in (sev, fsev) if x], key=SEVERITY.get, default=None)
         elif p["lcp_ms"] > C.LCP_POOR_MS:
-            problems.append(f"lab LCP {p['lcp_ms']} ms"); sev = sev or "medium"
+            problems.append(f"lab LCP {p['lcp_ms']} ms (no real-user data for this page)")
+            sev = sev or "medium"
         if problems:
-            out.append(F(f"cwv|{url}", sev, "performance", "Core Web Vitals need work",
+            out.append(F(f"cwv|{url}", sev, "performance", "Page speed needs work",
                          "; ".join(problems) + ".", [url], p))
     return out
+
+
+def rating(value, good, poor):
+    if value is None:
+        return None
+    return "good" if value <= good else "poor" if value > poor else "needs improvement"
+
+
+def rate_field(fld):
+    """Google's Core Web Vitals thresholds, applied to 75th-percentile real-user values."""
+    problems, sev = [], None
+    for name, key, good, poor, unit in (("LCP", "lcp_ms", C.LCP_GOOD_MS, C.LCP_POOR_MS, " ms"),
+                                        ("INP", "inp_ms", C.INP_GOOD_MS, C.INP_POOR_MS, " ms"),
+                                        ("CLS", "cls", C.CLS_GOOD, C.CLS_POOR, "")):
+        r = rating(fld.get(key), good, poor)
+        if r in ("needs improvement", "poor"):
+            problems.append(f"{name} {fld[key]}{unit} is {r} (good is {good}{unit} or less)")
+            level = "high" if r == "poor" else "medium"
+            sev = level if sev is None or SEVERITY[level] < SEVERITY[sev] else sev
+    return problems, sev
 
 
 def change_checks(s, prev):
@@ -220,8 +241,17 @@ def summarize(s):
         "internal_links_found": s["links"]["internal_links_found"],
         "crawler_access": s["robots"]["crawler_access"],
         "psi": {u: {k: v for k, v in p.items() if k != "origin_field"} for u, p in s["psi"].items()},
-        "site_core_web_vitals": next((p["origin_field"] for p in s["psi"].values() if p.get("origin_field")), None),
+        "site_core_web_vitals": rated(next((p["origin_field"] for p in s["psi"].values() if p.get("origin_field")), None)),
     }
+
+
+def rated(fld):
+    """The field values with Google's label next to each, so nobody has to guess what is good."""
+    if not fld:
+        return None
+    return dict(fld, lcp_rating=rating(fld.get("lcp_ms"), C.LCP_GOOD_MS, C.LCP_POOR_MS),
+                inp_rating=rating(fld.get("inp_ms"), C.INP_GOOD_MS, C.INP_POOR_MS),
+                cls_rating=rating(fld.get("cls"), C.CLS_GOOD, C.CLS_POOR))
 
 
 def analyze(s, prev, prev_findings, history=()):
