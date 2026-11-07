@@ -125,8 +125,11 @@ def state_checks(s):
         if p["score"] < C.PSI_SCORE_POOR:
             problems.append(f"lab performance score {p['score']}/100")
             sev = "medium"
-        if p.get("field"):  # this page has its own real-user data
-            more, fsev = rate_field(p["field"])
+        own = p.get("field")
+        if own and site and all(own.get(k) == site.get(k) for k in ("lcp_ms", "inp_ms", "cls")):
+            own = None  # the site's numbers standing in for the page's (older snapshots lack the flag)
+        if own:  # this page has its own real-user data
+            more, fsev = rate_field(own)
             problems += more
             sev = min([x for x in (sev, fsev) if x], key=SEVERITY.get, default=None)
         elif p["lcp_ms"] > C.LCP_POOR_MS:
@@ -152,7 +155,8 @@ def rate_field(fld):
                                         ("CLS", "cls", C.CLS_GOOD, C.CLS_POOR, "")):
         r = rating(fld.get(key), good, poor)
         if r in ("needs improvement", "poor"):
-            problems.append(f"{name} {fld[key]}{unit} is {r} (good is {good}{unit} or less)")
+            verdict = "is poor" if r == "poor" else "needs improvement"
+            problems.append(f"{name} {fld[key]}{unit} {verdict} (good is {good}{unit} or less)")
             level = "high" if r == "poor" else "medium"
             sev = level if sev is None or SEVERITY[level] < SEVERITY[sev] else sev
     return problems, sev

@@ -232,12 +232,14 @@ def psi(url):
         if r.status_code == 200:
             d = r.json()
             a = d["lighthouseResult"]["audits"]
+            page_exp = d.get("loadingExperience") or {}
             return {
                 "score": round(d["lighthouseResult"]["categories"]["performance"]["score"] * 100),
                 "lcp_ms": round(a["largest-contentful-paint"]["numericValue"]),
                 "cls": round(a["cumulative-layout-shift"]["numericValue"], 3),
                 "tbt_ms": round(a["total-blocking-time"]["numericValue"]),
-                "field": _field(d.get("loadingExperience")),
+                # without enough visits of its own, PageSpeed fills the page's field data with the whole site's
+                "field": None if page_exp.get("origin_fallback") else _field(page_exp),
                 "origin_field": _field(d.get("originLoadingExperience")),
             }
         try:
