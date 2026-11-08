@@ -2,7 +2,7 @@ name: Daily SEO review
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # every day 05:00 UTC = 09:00 in Yerevan
+    - cron: "23 4 * * *"  # every day 04:23 UTC = 08:23 in Yerevan (off the hour: GitHub drops/delays many top-of-hour cron runs)
   workflow_dispatch:       # "Run workflow" button for a run on demand
 
 permissions:

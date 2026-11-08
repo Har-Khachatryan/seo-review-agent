@@ -1,11 +1,11 @@
 # Daily SEO Review Agent: searchbloom.com
 
-Every morning at 09:00 (Yerevan) the agent checks searchbloom.com, compares it with the day before, and sends the team a short review on Telegram: what needs attention, why it matters, and what to do next. A full report is attached and saved to this repository.
+Every morning at about 08:30 (Yerevan) the agent checks searchbloom.com, compares it with the day before, and sends the team a short review on Telegram: what needs attention, why it matters, and what to do next. A full report is attached and saved to this repository.
 
 ## How it works
 
 ```text
-GitHub Actions, 09:00 daily
+GitHub Actions, 04:23 UTC (08:23 Yerevan) daily
         │
         ▼
 1 collect   robots.txt · 9 sitemaps · all 283 pages · internal links · PageSpeed for 5 key pages
