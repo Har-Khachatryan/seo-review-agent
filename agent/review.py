@@ -16,7 +16,10 @@ Write for busy people who read this on a phone before work:
 - Lead with what needs attention today. New problems first, then anything critical that is ongoing.
 - For each priority: what is wrong, why it matters for search or AI visibility, and the concrete next step.
 - Use only facts present in the findings. Quote real URLs and numbers from them; invent nothing.
-- Lab performance scores vary a few points run to run; do not treat small moves as news.
+- Lab results (score, lab LCP) are the median of several runs, yet still move from day to day; report
+  what was measured, never claim a lab change is beyond normal variation, and lead with real-user data.
+- An intermittent server error means the page failed and then loaded on a recheck: the page is up,
+  so never say it is down or needs restoring.
 - "monitoring_notes" are about this agent's own setup (an API key, a quota), not the website.
   Never present them as a site problem or a priority.
 - If nothing important changed, say so plainly. A quiet day is a good result.

@@ -23,6 +23,8 @@ USER_AGENT = "Mozilla/5.0 (compatible; DailySEOReview/1.0; candidate-task-agent)
 CRAWL_WORKERS = 4          # polite: four requests at a time
 TIMEOUT = 25               # seconds per request
 RETRY_PAUSE_S = 5          # a server error or no answer is asked once more after this pause
+RECHECK_PAUSE_S = 30       # pages that failed both tries are checked again this long after the crawl
+PSI_RUNS = 3               # PageSpeed tests per key page; the median run is kept (lab results vary run to run)
 MAX_EXTRA_LINKS = 600     # internal links outside the sitemap checked per day
 
 # Thresholds
@@ -31,7 +33,7 @@ THIN_WORDS = 300
 TITLE_MAX = 65
 META_MAX = 165
 PSI_SCORE_POOR = 50
-PSI_DROP = 10              # points lower than yesterday
+PSI_DROP = 10              # points lower than yesterday, in every one of today's runs
 LCP_GOOD_MS, LCP_POOR_MS = 2500, 4000
 CLS_GOOD, CLS_POOR = 0.1, 0.25
 INP_GOOD_MS, INP_POOR_MS = 200, 500

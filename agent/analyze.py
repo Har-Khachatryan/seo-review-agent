@@ -19,7 +19,7 @@ def F(fid, severity, kind, title, detail, urls=(), data=None):
             "count": len(urls), "urls": urls[:10], "data": data or {}}
 
 
-def state_checks(s):
+def state_checks(s, worked_yesterday=frozenset()):
     out = []
     pages = s["pages"]
 
@@ -43,11 +43,29 @@ def state_checks(s):
         if urls:
             out.append(F(fid, sev, kind, title, detail.format(n=len(urls)), urls))
 
-    group("status_5xx", "critical", "availability", "Sitemap pages return a server error",
-          f"{{n}} page(s) in the sitemap returned HTTP 5xx or did not answer twice in a row, {C.RETRY_PAUSE_S} s apart, so it is not a passing hiccup.",
-          lambda p: (p.get("status") or 0) >= 500 or p.get("status") == 0)
-    group("status_4xx", "critical", "availability", "Sitemap pages return a client error",
-          "{n} page(s) in the sitemap return HTTP 4xx (likely 404).", lambda p: 400 <= (p.get("status") or 0) < 500)
+    def failing(fid, title, detail, pred):
+        """A page that is down today; saying which of them worked yesterday replaces a separate
+        'broke since yesterday' finding that would list the same pages twice."""
+        urls = [u for u, p in pages.items() if pred(p)]
+        if urls:
+            back = [u for u in urls if u in worked_yesterday]
+            note = f" {len(back)} of them answered 200 yesterday." if back else ""
+            out.append(F(fid, "critical", "availability", title, detail.format(n=len(urls)) + note, urls,
+                         {"worked_yesterday": back[:10]} if back else None))
+
+    def down(p):
+        return (p.get("status") or 0) >= 500 or p.get("status") == 0
+
+    failing("status_5xx", "Sitemap pages return a server error",
+            f"{{n}} page(s) in the sitemap returned HTTP 5xx or did not answer on every try: twice {C.RETRY_PAUSE_S} s apart, "
+            f"and again at least {C.RECHECK_PAUSE_S} s after the crawl.", down)
+    failing("status_4xx", "Sitemap pages return a client error",
+            "{n} page(s) in the sitemap return HTTP 4xx (likely 404).", lambda p: 400 <= (p.get("status") or 0) < 500)
+    group("intermittent_5xx", "medium", "availability", "Intermittent server errors",
+          f"{{n}} page(s) failed twice in a row during the crawl (HTTP 5xx or no answer) but loaded when checked again "
+          f"at least {C.RECHECK_PAUSE_S} s later. The pages are up, but a crawler that arrives at the wrong moment gets "
+          "an error; worth a look in the server or hosting logs if it repeats.",
+          lambda p: bool(p.get("failed_before_recheck")) and not down(p))
     group("sitemap_redirects", "medium", "indexing", "Sitemap lists URLs that redirect",
           "{n} sitemap URL(s) redirect; a sitemap should list final URLs.", lambda p: p.get("redirects"))
     group("noindex_in_sitemap", "critical", "indexing", "Pages in the sitemap are set to noindex",
@@ -194,11 +212,7 @@ def change_checks(s, prev):
             out.append(F(f"{fid}|{s['date']}", sev, "changes", title, f"{len(urls)} page(s) {verb} since yesterday.", urls,
                          {"examples": {u: {"before": before[u].get(field), "after": now[u].get(field)} for u in urls[:5]}}))
 
-    broke = [u for u in now if u in before and before[u].get("status") == 200 and now[u].get("status") != 200]
-    if broke:
-        out.append(F(f"newly_broken|{s['date']}", "critical", "availability", "Pages broke since yesterday",
-                     f"{len(broke)} page(s) worked yesterday and fail today.", broke,
-                     {"statuses": {u: now[u].get("status") for u in broke[:10]}}))
+    # pages that worked yesterday and fail today are named in the 4xx/5xx findings (state_checks)
     newly_noindex = [u for u in now if u in before and "noindex" in (now[u].get("robots_meta") or "")
                      and "noindex" not in (before[u].get("robots_meta") or "")]
     if newly_noindex:
@@ -214,10 +228,13 @@ def change_checks(s, prev):
 
     for url, p in s["psi"].items():
         q = prev.get("psi", {}).get(url, {})
-        if "score" in p and "score" in q and q["score"] - p["score"] >= C.PSI_DROP:
+        if "score" not in p or "score" not in q:
+            continue
+        runs = [r["score"] for r in p.get("runs", [])] or [p["score"]]
+        if q["score"] - max(runs) >= C.PSI_DROP:  # every run today is well below yesterday, not one slow run
             out.append(F(f"psi_drop|{url}|{s['date']}", "medium", "performance", "Performance score dropped",
-                         f"Mobile performance score fell from {q['score']} to {p['score']}; lab LCP {q['lcp_ms']} → {p['lcp_ms']} ms. "
-                         "Lab scores vary by a few points between runs, so a drop this size is worth a look.", [url]))
+                         f"Mobile performance score fell from {q['score']} to {p['score']} (median of {len(runs)} lab runs, "
+                         f"best {max(runs)}); lab LCP {q['lcp_ms']} → {p['lcp_ms']} ms.", [url], {"runs_today": p.get("runs")}))
 
     return out
 
@@ -245,7 +262,7 @@ def summarize(s):
         "median_response_ms": median(ms) if ms else None,
         "internal_links_found": s["links"]["internal_links_found"],
         "crawler_access": s["robots"]["crawler_access"],
-        "psi": {u: {k: v for k, v in p.items() if k != "origin_field"} for u, p in s["psi"].items()},
+        "psi": {u: {k: v for k, v in p.items() if k not in ("origin_field", "runs")} for u, p in s["psi"].items()},
         "site_core_web_vitals": rated(next((p["origin_field"] for p in s["psi"].values() if p.get("origin_field")), None)),
     }
 
@@ -260,7 +277,8 @@ def rated(fld):
 
 
 def analyze(s, prev, prev_findings, history=()):
-    findings = state_checks(s) + change_checks(s, prev) + trend_checks(s, history)
+    worked = {u for u, p in prev["pages"].items() if p.get("status") == 200} if prev else set()
+    findings = state_checks(s, worked) + change_checks(s, prev) + trend_checks(s, history)
     known = {f["id"] for f in (prev_findings or [])}
     for f in findings:
         f["status"] = "ongoing" if f["id"] in known else "new"

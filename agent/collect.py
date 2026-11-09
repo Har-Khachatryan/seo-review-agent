@@ -223,7 +223,34 @@ def collect_pages(urls):
     with ThreadPoolExecutor(C.CRAWL_WORKERS) as pool:
         statuses = dict(zip(extra, pool.map(link_status, extra)))
     links = {u: {"status": s, "found_on": linked[u]} for u, s in statuses.items()}
+    recheck(results, links)
     return results, links, len(linked)
+
+
+def _down(status):
+    return (status or 0) >= 500 or status == 0
+
+
+def recheck(results, links):
+    """Pages and linked URLs that failed both tries are asked once more after the crawl. One that
+    loads then is up but erratic; it keeps its earlier failures in failed_before_recheck."""
+    pages_down = [u for u, p in results.items() if _down(p.get("status"))]
+    links_down = [u for u, l in links.items() if _down(l["status"])]
+    if not pages_down and not links_down:
+        return
+    time.sleep(C.RECHECK_PAUSE_S)
+    for u in pages_down:  # one at a time, so the check adds nothing to whatever load the server has
+        before, now = results[u], fetch_page(u)
+        now.pop("_links", None)
+        if _down(now.get("status")):
+            before["recheck_status"] = now["status"]
+        else:
+            now["failed_before_recheck"] = [before.get("first_try"), before.get("error") or before["status"]]
+            results[u] = now
+    for u in links_down:
+        s = link_status(u)
+        if not _down(s):
+            links[u].update(status=s, failed_before_recheck=links[u]["status"])
 
 
 # ---------------------------------------------------------------- PageSpeed Insights
@@ -248,6 +275,27 @@ def _field(exp):
 
 
 def psi(url):
+    """PageSpeed for one page, tested PSI_RUNS times. Lab results move a lot between runs (this
+    site's guide page read 4.4 s and 10.7 s lab LCP on consecutive days), so the median run is
+    kept, and every run's score and LCP are saved in "runs". PageSpeed caches a result for about
+    a minute, so runs after the first add a utm parameter (the site serves the same page) to get
+    a fresh test; real-user data comes from the first run, on the plain URL."""
+    runs, res = [], None
+    for i in range(C.PSI_RUNS):
+        res = psi_once(url if i == 0 else f"{url}{'&' if '?' in url else '?'}utm_source=seo-review&utm_content=run{i + 1}")
+        if "error" in res:
+            if res.get("setup_problem"):
+                return res  # the key itself is refused: more runs will not help
+            continue
+        runs.append(res)
+    if not runs:
+        return res
+    mid = sorted(runs, key=lambda r: r["score"])[len(runs) // 2]
+    return dict(mid, field=runs[0]["field"], origin_field=runs[0]["origin_field"],
+                runs=[{"score": r["score"], "lcp_ms": r["lcp_ms"]} for r in runs])
+
+
+def psi_once(url):
     key = os.environ.get("GOOGLE_API_KEY")
     params = {"url": url, "strategy": "mobile", "category": "performance"}
     if key:
@@ -294,7 +342,8 @@ def collect():
         pages[u].update(meta)
     snap["pages"] = pages
     snap["links"] = {"internal_links_found": linked_count, "checked_outside_sitemap": links}
-    snap["psi"] = {u: psi(u) for u in C.KEY_PAGES}
+    with ThreadPoolExecutor(len(C.KEY_PAGES)) as pool:  # pages side by side; each page's runs in turn
+        snap["psi"] = dict(zip(C.KEY_PAGES, pool.map(psi, C.KEY_PAGES)))
     snap["duration_s"] = round(time.time() - started)
     return snap
 
