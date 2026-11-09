@@ -1,7 +1,7 @@
 {
  "site": "https://www.searchbloom.com",
  "date": "2026-11-09",
- "collected_at": "2026-11-09T05:54:56+00:00",
+ "collected_at": "2026-11-09T06:54:58+00:00",
  "robots": {
   "status": 200,
   "sha": "37f163d85d553adf",
@@ -86,8 +86,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 206,
-   "bytes": 253434,
+   "ms": 964,
+   "bytes": 253432,
    "x_robots": null,
    "title": "Link Building Services for SEO: What You Need to Know Now",
    "meta_description": "Learn everything you need to know about link-building services for SEO. Click here to read our comprehensive guide now.",
@@ -110,7 +110,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:40:22+00:00"
   },
@@ -118,8 +118,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1540,
-   "bytes": 227097,
+   "ms": 1232,
+   "bytes": 227101,
    "x_robots": null,
    "title": "How to Make Sure Your SEO Delivers the ROI You Are Seeking - Searchbloom®",
    "meta_description": "If you are building a business, you know that you need to develop a multifaceted and progressive marketing plan that makes it easier for customers to find",
@@ -129,7 +129,7 @@
     "How to Make Sure Your SEO Delivers the ROI You Are Seeking"
    ],
    "h1_count": 1,
-   "words": 1852,
+   "words": 1853,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -143,7 +143,6 @@
    ],
    "hreflang": 0,
    "cache": "MISS",
-   "ms_retry": 65,
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:43+00:00"
   },
@@ -151,7 +150,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1400,
+   "ms": 1037,
    "bytes": 220870,
    "x_robots": null,
    "title": "How to Boost Your Blogs’ Popularity - Searchbloom®",
@@ -162,7 +161,7 @@
     "How to Boost Your Blogs’ Popularity"
    ],
    "h1_count": 1,
-   "words": 1225,
+   "words": 1226,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -183,8 +182,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1428,
-   "bytes": 222367,
+   "ms": 1204,
+   "bytes": 222366,
    "x_robots": null,
    "title": "Does Quality Score Matter? - Searchbloom®",
    "meta_description": "In placing your display ads and selecting keywords, you may have heard or read about Quality Score and its importance. A lot has been said and written about",
@@ -215,8 +214,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 227,
-   "bytes": 222339,
+   "ms": 905,
+   "bytes": 222345,
    "x_robots": null,
    "title": "EDU Backlinks (A Guide for SEO's) - Searchbloom®",
    "meta_description": "The whole concept of link building as an SEO strategy has gone through quite a metamorphoses in the past several years. For some time, the pendulum hung far",
@@ -239,7 +238,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:38+00:00"
   },
@@ -247,8 +246,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1517,
-   "bytes": 222149,
+   "ms": 891,
+   "bytes": 222148,
    "x_robots": null,
    "title": "Google’s New Mobile Algorithm - Searchbloom®",
    "meta_description": "There has been much talk for a while about how mobile was going to overtake desktop for Internet use. For at least a couple of years, projections as to",
@@ -272,7 +271,6 @@
    ],
    "hreflang": 0,
    "cache": "MISS",
-   "ms_retry": 80,
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:36+00:00"
   },
@@ -280,7 +278,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1271,
+   "ms": 980,
    "bytes": 222271,
    "x_robots": null,
    "title": "Do Local Directories Really Matter? - Searchbloom®",
@@ -312,8 +310,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1114,
-   "bytes": 221757,
+   "ms": 938,
+   "bytes": 221758,
    "x_robots": null,
    "title": "Local Search Optimization & Local SEO",
    "meta_description": "So what’s your local search strategy? Many companies group all search activities into one bucket: it’s all search, right? Yes. And no. All searches are not",
@@ -344,8 +342,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 1124,
-   "bytes": 222616,
+   "ms": 946,
+   "bytes": 222618,
    "x_robots": null,
    "title": "What is the Google Quick Answer Box? - Searchbloom®",
    "meta_description": "Even if you have never heard of the Google Quick Answer Box, you’ve probably seen and used it. You go to Google and enter your search term, phrase or",
@@ -376,8 +374,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 234,
-   "bytes": 472416,
+   "ms": 820,
+   "bytes": 472419,
    "x_robots": null,
    "title": "PB&J, Burger & Fries, SEO & PPC - Searchbloom®",
    "meta_description": "If I asked you to think about things that go together, you could no doubt name many a well-known pairing. Tomato soup and a grilled cheese sandwich, salt and",
@@ -400,7 +398,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:29+00:00"
   },
@@ -408,8 +406,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 231,
-   "bytes": 219238,
+   "ms": 931,
+   "bytes": 219239,
    "x_robots": null,
    "title": "Why Do You SEO? - Searchbloom®",
    "meta_description": "When you think about your SEO efforts, what comes to your mind? Ways to get your site to rank higher? How can you get more traffic to your website? How your",
@@ -432,7 +430,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:28+00:00"
   },
@@ -440,8 +438,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 234,
-   "bytes": 473751,
+   "ms": 809,
+   "bytes": 473748,
    "x_robots": null,
    "title": "AdWords Management and Impression Share - Searchbloom®",
    "meta_description": "Among the seemingly bazillion things that you could track with your search analytics is yet another one: impression share. Of all the pieces of information",
@@ -464,7 +462,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:26+00:00"
   },
@@ -472,8 +470,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 261,
-   "bytes": 473059,
+   "ms": 746,
+   "bytes": 473066,
    "x_robots": null,
    "title": "Content Marketing - A NEW Definition - Searchbloom®",
    "meta_description": "Content marketing. It’s a term you’re probably familiar with if you’ve been involved in digital marketing in the past few years. Whether you have been",
@@ -483,7 +481,7 @@
     "Content Marketing - A NEW Definition"
    ],
    "h1_count": 1,
-   "words": 1275,
+   "words": 1276,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -496,7 +494,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:24+00:00"
   },
@@ -504,7 +502,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 366,
+   "ms": 750,
    "bytes": 470759,
    "x_robots": null,
    "title": "Online Reviews - Searchbloom®",
@@ -515,7 +513,7 @@
     "Online Reviews"
    ],
    "h1_count": 1,
-   "words": 1250,
+   "words": 1249,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -528,7 +526,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:22+00:00"
   },
@@ -536,8 +534,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 244,
-   "bytes": 471573,
+   "ms": 879,
+   "bytes": 471577,
    "x_robots": null,
    "title": "Understanding Google Manual Penalties - Searchbloom®",
    "meta_description": "Hearing the words “Google” and “penalty” together in the same sentence can cause a person to cringe. I understand this as it always sounds so bad. While a",
@@ -560,7 +558,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:21+00:00"
   },
@@ -568,8 +566,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 253,
-   "bytes": 471826,
+   "ms": 802,
+   "bytes": 471824,
    "x_robots": null,
    "title": "How to Clean Up Your Link Profile - Searchbloom®",
    "meta_description": "Keeping your link profile in good order is one of the smartest things you can do. Avoiding a Google penalty is far easier than recovering from a penalty. How",
@@ -592,7 +590,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:19+00:00"
   },
@@ -600,8 +598,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 300,
-   "bytes": 471517,
+   "ms": 883,
+   "bytes": 471518,
    "x_robots": null,
    "title": "A/B vs. Multivariate Testing - Searchbloom®",
    "meta_description": "When a review of your site metrics shows results not as great as you would like, it’s time to consider your options. Many factors can go into the performance",
@@ -624,7 +622,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:17+00:00"
   },
@@ -632,8 +630,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 227,
-   "bytes": 471671,
+   "ms": 919,
+   "bytes": 471673,
    "x_robots": null,
    "title": "Build Your Brand through Storytelling - Searchbloom®",
    "meta_description": "Everyone loves a good story but why? Because stories generate emotion and connect people to each other, to causes and, yes, to companies. When you allow and",
@@ -643,7 +641,7 @@
     "Build Your Brand through Storytelling"
    ],
    "h1_count": 1,
-   "words": 1257,
+   "words": 1258,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -656,7 +654,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:16+00:00"
   },
@@ -664,8 +662,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 260,
-   "bytes": 474305,
+   "ms": 1028,
+   "bytes": 474306,
    "x_robots": null,
    "title": "5 Steps to Better Meta Descriptions | Searchbloom®",
    "meta_description": "The practice of search engine optimization focuses largely on getting your information or website to display as high up the result list in a search query as possible. However, the work really does not (or at least should not) end there. Let’s imagine that you have managed to get your landing page to a top three position, certainly one of the primo spots. What will make someone want to click your listing versus one of the others?",
@@ -688,7 +686,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:14+00:00"
   },
@@ -696,8 +694,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 261,
-   "bytes": 475328,
+   "ms": 986,
+   "bytes": 475327,
    "x_robots": null,
    "title": "SEO: Not the Sole Path to Site Traffic | Searchbloom®",
    "meta_description": "No matter the industry or area of expertise, most business owners today know what SEO is and are aware of the power it can wield for their websites. Certainly a website can do no good for a business without traffic. Therefore, generating traffic is front and center to many marketers and business owners alike.",
@@ -720,7 +718,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:12+00:00"
   },
@@ -728,8 +726,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 216,
-   "bytes": 473580,
+   "ms": 966,
+   "bytes": 473581,
    "x_robots": null,
    "title": "Three Cheers for Negative Reviews | Searchbloom®",
    "meta_description": "Most people would not instinctively be happy for their businesses to receive a negative review. We all want positive feedback for obvious reasons. While you should take pride in your positive reviews you should not be so quick to shy away from the negative ones. These reviews put tremendous opportunity in the palm of your hands.",
@@ -752,7 +750,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:11+00:00"
   },
@@ -760,8 +758,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 300,
-   "bytes": 474905,
+   "ms": 1050,
+   "bytes": 474903,
    "x_robots": null,
    "title": "Want Big PPC Results? Think Small | Searchbloom®",
    "meta_description": "We’ve all been hearing about the increasing importance of mobile for search and you’ve no doubt seen it in your analytics. As promised by countless industry experts, mobile search has taken over as the arena in which you should focus your efforts. Much has been written about how to capitalize on this shift and among the myriad of recommendations is one small factor that can have some of the biggest impact. Enter the micro-moment.",
@@ -784,7 +782,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:09+00:00"
   },
@@ -792,8 +790,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 229,
-   "bytes": 481246,
+   "ms": 1071,
+   "bytes": 481251,
    "x_robots": null,
    "title": "10 Excel Tips for SEO & PPC Pro's | Searchbloom®",
    "meta_description": "Depending upon how long you’ve been using Excel or who taught you how to do things, you may or may not be making the most out of this powerful tool.",
@@ -816,7 +814,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:07+00:00"
   },
@@ -824,8 +822,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 227,
-   "bytes": 473139,
+   "ms": 1073,
+   "bytes": 473141,
    "x_robots": null,
    "title": "What is a Doorway Page? - Franchise SEO | Searchbloom®",
    "meta_description": "A doorway page is one that is created with the sole purpose of capturing search traffic and funneling it to another page or site. Click here to learn more!",
@@ -848,7 +846,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:06+00:00"
   },
@@ -856,7 +854,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 230,
+   "ms": 1248,
    "bytes": 473782,
    "x_robots": null,
    "title": "How Can Meta Descriptions Improve SEO? | Searchbloom®",
@@ -867,7 +865,7 @@
     "Put Meta Descriptions to Work for You"
    ],
    "h1_count": 1,
-   "words": 1327,
+   "words": 1326,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -880,7 +878,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:04+00:00"
   },
@@ -888,7 +886,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 204,
+   "ms": 1098,
    "bytes": 470209,
    "x_robots": null,
    "title": "SEO Is Dead - Searchbloom®",
@@ -912,7 +910,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:02+00:00"
   },
@@ -920,7 +918,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 229,
+   "ms": 1300,
    "bytes": 221186,
    "x_robots": null,
    "title": "Building URL's For SEO | Searchbloom®",
@@ -944,7 +942,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:35:01+00:00"
   },
@@ -952,8 +950,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 242,
-   "bytes": 473134,
+   "ms": 1158,
+   "bytes": 473140,
    "x_robots": null,
    "title": "Google Penalty & Reconsideration Request | Searchbloom®",
    "meta_description": "Google Penalty - How to Avoid a Failed Reconsideration Request. Searchbloom's blog by Jordan Conner. Industry leading Search Engine strategies. Study up HERE!",
@@ -976,7 +974,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:59+00:00"
   },
@@ -984,8 +982,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 221,
-   "bytes": 222204,
+   "ms": 1331,
+   "bytes": 222199,
    "x_robots": null,
    "title": "Social the New Customer Service? | Searchbloom®",
    "meta_description": "Customer service by nature is social. It involves some form of interaction between people. But, what do those interactions look like for your business?",
@@ -1008,7 +1006,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:57+00:00"
   },
@@ -1016,7 +1014,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 191,
+   "ms": 1264,
    "bytes": 222261,
    "x_robots": null,
    "title": "Mobile Apps and the New Google Algorithm | Searchbloom®",
@@ -1040,7 +1038,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:56+00:00"
   },
@@ -1048,8 +1046,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 227,
-   "bytes": 221970,
+   "ms": 1262,
+   "bytes": 221969,
    "x_robots": null,
    "title": "eCommerce Conversion Rate Optimization (CRO) | Searchbloom®",
    "meta_description": "As marketers, we spend a lot of time focusing on how to attract customers. Open rates, click thru rates, visit times and bounce rates.",
@@ -1072,7 +1070,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:54+00:00"
   },
@@ -1080,8 +1078,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 221,
-   "bytes": 222277,
+   "ms": 1233,
+   "bytes": 222279,
    "x_robots": null,
    "title": "Marketing Tips to Help You Think Like The Customer | Searchbloom®",
    "meta_description": "Imagine if a potential new customer comes to your website and it is this hard for them to find the information they need. They are not stuck into working with you. There is nothing to prevent them from leaving quickly and going to your competitor’s site.",
@@ -1104,7 +1102,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:52+00:00"
   },
@@ -1112,8 +1110,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 236,
-   "bytes": 473415,
+   "ms": 911,
+   "bytes": 473418,
    "x_robots": null,
    "title": "Social Media Reputation Management | Searchbloom®",
    "meta_description": "In this day and age, your company could suffer from bad reviews or social media which can seriously impact your bottom line. Check out this blog post from Todd Hubbs.",
@@ -1136,7 +1134,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:51+00:00"
   },
@@ -1144,8 +1142,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 180,
-   "bytes": 475498,
+   "ms": 902,
+   "bytes": 475499,
    "x_robots": null,
    "title": "15 SEO Tips for E-Commerce SEO | Searchbloom®",
    "meta_description": "Every online marketer knows that good SEO requires many things. There are some recommendations specific to the needs and environment of e-commerce companies that any business conducting transactions online today should be aware of.",
@@ -1168,7 +1166,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:49+00:00"
   },
@@ -1176,8 +1174,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 245,
-   "bytes": 473508,
+   "ms": 818,
+   "bytes": 473514,
    "x_robots": null,
    "title": "4 Pinterest Tips for Non-e-Commerce Companies - Searchbloom®",
    "meta_description": "If you’ve been holding out on adding Pinterest to your social platform mix because you’re not an e-commerce company, you may want to reconsider that decision. Click here to learn why.",
@@ -1200,7 +1198,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:48+00:00"
   },
@@ -1208,8 +1206,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 214,
-   "bytes": 473467,
+   "ms": 805,
+   "bytes": 473470,
    "x_robots": null,
    "title": "5 CRO Tips You Can Use Now - Searchbloom®",
    "meta_description": "If you have decided that 2016 is the year that you need to put extra attention into your conversion rate, you’ve come to the right place. Click here to get 5 tips to improve your conversion rate.",
@@ -1232,7 +1230,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:46+00:00"
   },
@@ -1240,8 +1238,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 222,
-   "bytes": 221363,
+   "ms": 819,
+   "bytes": 221365,
    "x_robots": null,
    "title": "5 Tips for Auditing Your SEO Audit - Searchbloom®",
    "meta_description": "With the fast evolutionary pace of SEO, it stands to reason that the means by which you assess it should also evolve. Here are 5 tips on conducting an SEO Audit.",
@@ -1264,7 +1262,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:44+00:00"
   },
@@ -1272,8 +1270,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 196,
-   "bytes": 474193,
+   "ms": 752,
+   "bytes": 474194,
    "x_robots": null,
    "title": "7 Local Link Building Tips - Searchbloom®",
    "meta_description": "Acquiring external backlinks is the key to a successful SEO campaign. If you are a local company, link acquisition can be difficult. Here are 7 tips for local link building.",
@@ -1296,7 +1294,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:42+00:00"
   },
@@ -1304,8 +1302,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 195,
-   "bytes": 222311,
+   "ms": 821,
+   "bytes": 222308,
    "x_robots": null,
    "title": "7 SEO Tips for Using Videos | Searchbloom®",
    "meta_description": "So you want to start using videos on your site, you say? That’s great! But, before you get too far down a  path, let’s step back for a moment and review some of the things you should do to make sure you get the best SEO value out of your efforts. Here are some things you should do in order to do this:",
@@ -1328,7 +1326,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:41+00:00"
   },
@@ -1336,8 +1334,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 208,
-   "bytes": 232269,
+   "ms": 832,
+   "bytes": 232270,
    "x_robots": null,
    "title": "Ecommerce On-Page SEO Techniques You Need To Pay Attention To - Searchbloom®",
    "meta_description": "In this post, Matthew Woodward shares some of the top on-page SEO tactices you need to pay attention to for your ecommerce website.",
@@ -1360,7 +1358,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:39+00:00"
   },
@@ -1368,8 +1366,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 215,
-   "bytes": 475374,
+   "ms": 786,
+   "bytes": 475371,
    "x_robots": null,
    "title": "6 Reasons Why SEO Is Not Working For You - Searchbloom®",
    "meta_description": "If your SEO isn't working, there's probably a relatively easy explanation. While SEO can take time, you should see results if you're following a proper strategy.",
@@ -1392,7 +1390,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:37+00:00"
   },
@@ -1400,8 +1398,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 220,
-   "bytes": 477526,
+   "ms": 687,
+   "bytes": 477524,
    "x_robots": null,
    "title": "6 Ways Smaller Companies Can Keep up With Ecommerce Giants - Searchbloom®",
    "meta_description": "Starting an online business can seem like a daunting task when you consider the ecommerce giants who dominate the stage. Here are some ways you can compete.",
@@ -1424,7 +1422,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:36+00:00"
   },
@@ -1432,8 +1430,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 232,
-   "bytes": 487340,
+   "ms": 766,
+   "bytes": 487342,
    "x_robots": null,
    "title": "Leadpages V.S. Unbounce - Searchbloom®",
    "meta_description": "The right landing page can make or break your lead acquisition strategy.",
@@ -1456,7 +1454,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:34+00:00"
   },
@@ -1464,7 +1462,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 215,
+   "ms": 908,
    "bytes": 237503,
    "x_robots": null,
    "title": "Why Topical Authority May Be The Most Critical Aspect of SEO - Searchbloom®",
@@ -1488,7 +1486,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:32+00:00"
   },
@@ -1496,8 +1494,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 355,
-   "bytes": 485133,
+   "ms": 757,
+   "bytes": 485139,
    "x_robots": null,
    "title": "10 Best Drupal 8 SEO Modules - Searchbloom®",
    "meta_description": "Drupal 8 is very powerful & with the changes in the marketing landscape, your website needs reliable SEO modules more than ever before.",
@@ -1507,7 +1505,7 @@
     "10 Best Drupal 8 SEO Modules to Supercharge Your Website"
    ],
    "h1_count": 1,
-   "words": 2128,
+   "words": 2129,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -1520,7 +1518,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:31+00:00"
   },
@@ -1528,8 +1526,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 195,
-   "bytes": 505180,
+   "ms": 766,
+   "bytes": 505182,
    "x_robots": null,
    "title": "Local SEO vs. National SEO - Searchbloom®",
    "meta_description": "Read a comparison between local SEO vs national SEO. Also learn how national SEO and local SEO marketing can help your business achieve growth and success.",
@@ -1539,7 +1537,7 @@
     "Local SEO vs. National SEO: A Comparison for Businesses"
    ],
    "h1_count": 1,
-   "words": 3708,
+   "words": 3709,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -1552,7 +1550,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:29+00:00"
   },
@@ -1560,8 +1558,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 225,
-   "bytes": 474207,
+   "ms": 785,
+   "bytes": 474210,
    "x_robots": null,
    "title": "Schema Markup & Semantic SEO for Beginners | Searchbloom®",
    "meta_description": "The world of SEO can be very confusing, especially with terms like HTML sitemap, XML sitemap and schema markup. Learn more about semantic SEO and how it can help improve your website's search presence.",
@@ -1584,7 +1582,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:27+00:00"
   },
@@ -1592,8 +1590,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 199,
-   "bytes": 252521,
+   "ms": 937,
+   "bytes": 252526,
    "x_robots": null,
    "title": "A Complete Guide to Structured Data for SEO - Searchbloom®",
    "meta_description": "With each passing year, Google relies more heavily on structured data in their search engine results pages (SERPs).",
@@ -1616,7 +1614,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:25+00:00"
   },
@@ -1624,8 +1622,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 197,
-   "bytes": 260341,
+   "ms": 114,
+   "bytes": 260360,
    "x_robots": null,
    "title": "Surfer AI Content Review [The Ultimate Guide] - Searchbloom®",
    "meta_description": "Searchbloom’s team of content writers and editors had the opportunity to test and experiment with Surfer AI thoroughly, and we're excited to share the features and benefits of this new SEO tool. Check it out!",
@@ -1657,8 +1655,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 216,
-   "bytes": 243788,
+   "ms": 957,
+   "bytes": 243789,
    "x_robots": null,
    "title": "Learning SEO 101: What is Index Bloat?",
    "meta_description": "Index bloat makes it harder for search engines to detect and analyze your site. Read more about how to combat index bloat and prevent it from happening again.",
@@ -1681,7 +1679,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:21+00:00"
   },
@@ -1689,8 +1687,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 229,
-   "bytes": 248970,
+   "ms": 945,
+   "bytes": 248969,
    "x_robots": null,
    "title": "What is an SEO Consultant & When Do You Need One? | Searchbloom©",
    "meta_description": "Discover what an SEO consultant is & learn why your business may be in need of expert SEO consulting from search engine experts at Searchbloom. Contact us today!",
@@ -1713,7 +1711,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:19+00:00"
   },
@@ -1721,8 +1719,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 232,
-   "bytes": 495863,
+   "ms": 868,
+   "bytes": 495861,
    "x_robots": null,
    "title": "How To Get Your Business To Show Up on Google",
    "meta_description": "Wondering why your business won’t show up on Google? Check out our comprehensive guide and start getting customers organically!",
@@ -1745,7 +1743,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:17+00:00"
   },
@@ -1753,7 +1751,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 165,
+   "ms": 1049,
    "bytes": 248415,
    "x_robots": null,
    "title": "SEO for Multiple Locations (Ultimate Guide)",
@@ -1777,7 +1775,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:16+00:00"
   },
@@ -1785,8 +1783,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 213,
-   "bytes": 231052,
+   "ms": 1007,
+   "bytes": 231053,
    "x_robots": null,
    "title": "SEO Content Frameworks: A Simple Guide to Get Started - Searchbloom®",
    "meta_description": "Creating consistent, high-performing SEO content can often feel like chasing a moving target. Why do some pieces of content drive massive traffic while others",
@@ -1809,7 +1807,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:14+00:00"
   },
@@ -1817,8 +1815,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 176,
-   "bytes": 222645,
+   "ms": 1036,
+   "bytes": 222650,
    "x_robots": null,
    "title": "4 Ways to Keep Your PPC Ads Fresh - Searchbloom®",
    "meta_description": "Why should you rotate your ad copy in Adwords? In this post, we share why it is so important to keep your ads fresh and how to do it. Check it out!",
@@ -1841,7 +1839,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:12+00:00"
   },
@@ -1849,8 +1847,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 220,
-   "bytes": 474374,
+   "ms": 803,
+   "bytes": 474371,
    "x_robots": null,
    "title": "5 Ways to Maximize Google Analytics | Searchbloom®",
    "meta_description": "If you have a website, you no doubt look to Google Analytics for some of your metrics data. It’s the way you know how much traffic your site is getting and",
@@ -1873,7 +1871,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:10+00:00"
   },
@@ -1881,8 +1879,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 67,
-   "bytes": 293562,
+   "ms": 82,
+   "bytes": 543931,
    "x_robots": null,
    "title": "38 Conversion Rate Optimization Recommendations & Tips to Test | Searchbloom",
    "meta_description": "Boost your business with our top-notch conversion rate optimization tests! Dive into this article to unlock the secret to skyrocketing sales. Don't miss out on CRO recommendations with Searchbloom!",
@@ -1905,7 +1903,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "MISS",
+   "cache": "HIT: 1",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:09+00:00"
   },
@@ -1913,8 +1911,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 235,
-   "bytes": 487990,
+   "ms": 854,
+   "bytes": 487991,
    "x_robots": null,
    "title": "The Great Decoupling: Why Your Google Search Clicks Are Down While Impressions Keep Rising - Searchbloom®",
    "meta_description": "If you’ve opened your Google Search Console lately and noticed that impressions are steady or rising but clicks have taken a nosedive, you’re not alone.",
@@ -1938,7 +1936,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:07+00:00"
   },
@@ -1946,8 +1944,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 268,
-   "bytes": 501394,
+   "ms": 821,
+   "bytes": 501398,
    "x_robots": null,
    "title": "Ultimate Guide to Shopify SEO: 6 Steps for Success - Searchbloom®",
    "meta_description": "First, a note on what makes Shopify SEO services and DIY strategies different from traditional SEO. You'll have to tweak your optimization techniques when",
@@ -1972,7 +1970,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:05+00:00"
   },
@@ -1980,8 +1978,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 242,
-   "bytes": 516799,
+   "ms": 855,
+   "bytes": 516798,
    "x_robots": null,
    "title": "Utah SEO: Is Utah The Capital of SEO?",
    "meta_description": "Are Utah SEO marketing companies making the state the \"capital of SEO\"? Find out in this informative article from Searchbloom, a top Utah SEO services company.",
@@ -1991,7 +1989,7 @@
     "Utah SEO: Is Utah The Capital of SEO?"
    ],
    "h1_count": 1,
-   "words": 5347,
+   "words": 5346,
    "schema_types": [
     "BlogPosting",
     "BreadcrumbList",
@@ -2004,7 +2002,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:03+00:00"
   },
@@ -2012,8 +2010,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 250,
-   "bytes": 497605,
+   "ms": 868,
+   "bytes": 497611,
    "x_robots": null,
    "title": "Best Shopify Themes For SEO",
    "meta_description": "Discover the top Shopify themes optimized for SEO to boost your online store's visibility and drive more traffic. Find the best one for your business today!",
@@ -2036,38 +2034,26 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:34:01+00:00"
   },
   "https://www.searchbloom.com/blog/best-personal-branding-websites-for-ceos/": {
-   "status": 504,
-   "final_url": null,
-   "redirects": 0,
-   "ms": 41,
-   "bytes": 6444,
-   "x_robots": null,
-   "first_try": 504,
-   "cache": null,
-   "sitemap": "post-sitemap.xml",
-   "lastmod": "2026-11-02T21:33:59+00:00"
-  },
-  "https://www.searchbloom.com/blog/information-gain-score/": {
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 329,
-   "bytes": 547240,
+   "ms": 887,
+   "bytes": 516218,
    "x_robots": null,
-   "title": "Information Gain Score (IGS): The Math Behind AI Citation - Searchbloom®",
-   "meta_description": "How to compute IGS against the top-10 competitors, choose the right embedding model, and read the 13-grade letter scale before you decide to publish.",
-   "canonical": "https://www.searchbloom.com/blog/information-gain-score/",
+   "title": "The 21 Best Personal Branding Websites for CEOs",
+   "meta_description": "Discover the 21 best personal branding websites for CEOs. See how leaders like Marie Forleo, Seth Godin use design, storytelling, and conversion strategies to build authority and generate leads.",
+   "canonical": "https://www.searchbloom.com/blog/best-personal-branding-websites-for-ceos/",
    "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
    "h1": [
-    "Information Gain Score (IGS): The Math Behind AI Citation"
+    "The 21 Best Personal Branding Websites for CEOs"
    ],
    "h1_count": 1,
-   "words": 7777,
+   "words": 2933,
    "schema_types": [
     "Answer",
     "BlogPosting",
@@ -2083,7 +2069,42 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
+   "sitemap": "post-sitemap.xml",
+   "lastmod": "2026-11-02T21:33:59+00:00"
+  },
+  "https://www.searchbloom.com/blog/information-gain-score/": {
+   "status": 200,
+   "final_url": null,
+   "redirects": 0,
+   "ms": 890,
+   "bytes": 547243,
+   "x_robots": null,
+   "title": "Information Gain Score (IGS): The Math Behind AI Citation - Searchbloom®",
+   "meta_description": "How to compute IGS against the top-10 competitors, choose the right embedding model, and read the 13-grade letter scale before you decide to publish.",
+   "canonical": "https://www.searchbloom.com/blog/information-gain-score/",
+   "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": [
+    "Information Gain Score (IGS): The Math Behind AI Citation"
+   ],
+   "h1_count": 1,
+   "words": 7778,
+   "schema_types": [
+    "Answer",
+    "BlogPosting",
+    "BreadcrumbList",
+    "FAQPage",
+    "ImageObject",
+    "ListItem",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "Question",
+    "WebPage",
+    "WebSite"
+   ],
+   "hreflang": 0,
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:33:57+00:00"
   },
@@ -2091,7 +2112,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 198,
+   "ms": 1069,
    "bytes": 274035,
    "x_robots": null,
    "title": "The Embedding Audit: A Pre-Publish Workflow in Screaming Frog - Searchbloom®",
@@ -2118,7 +2139,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:33:55+00:00"
   },
@@ -2126,8 +2147,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 246,
-   "bytes": 372525,
+   "ms": 1194,
+   "bytes": 372530,
    "x_robots": null,
    "title": "Information Gain SEO: 12 Techniques + IGS Formula - Searchbloom®",
    "meta_description": "Information gain SEO is how content earns AI citation through measurable differentiation. The Searchbloom framework: 5-to-7 Rule, IGS, and 12 Techniques.",
@@ -2157,7 +2178,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:33:53+00:00"
   },
@@ -2165,8 +2186,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 205,
-   "bytes": 547698,
+   "ms": 895,
+   "bytes": 547694,
    "x_robots": null,
    "title": "Information Gain Density: The 5-to-7 Rule for AI Citation - Searchbloom®",
    "meta_description": "Information Gain Density (IGD) is the count of distinct, original, attributable insights per page. Searchbloom's 5-to-7 Rule benchmark for AI citation.",
@@ -2192,7 +2213,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:33:51+00:00"
   },
@@ -2200,8 +2221,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 217,
-   "bytes": 272144,
+   "ms": 1001,
+   "bytes": 272148,
    "x_robots": null,
    "title": "Vector Shift: Why You Cannot Engineer It Directly - Searchbloom®",
    "meta_description": "The 2026 SEO framing treats vector shift as a maneuver to engineer. It is a receipt for substance work. The earned versus gamed distinction, and which one compounds.",
@@ -2227,7 +2248,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-11-02T21:33:49+00:00"
   },
@@ -2235,8 +2256,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 189,
-   "bytes": 530197,
+   "ms": 802,
+   "bytes": 530201,
    "x_robots": null,
    "title": "Corpus Engineering: A New Discipline for AI Visibility",
    "meta_description": "Corpus Engineering is the discipline behind AI visibility. 6 components covering accessibility, structure, information gain, expansion, and lifecycle.",
@@ -2262,7 +2283,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-10-27T22:53:11+00:00"
   },
@@ -2270,8 +2291,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 245,
-   "bytes": 268588,
+   "ms": 880,
+   "bytes": 268589,
    "x_robots": null,
    "title": "What Is Parametric Knowledge Optimization?",
    "meta_description": "Parametric knowledge optimization shapes what an AI model learns about your brand. What it is, what our 450-answer test found, and how to measure it.",
@@ -2297,7 +2318,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": null
   },
@@ -2305,8 +2326,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 231,
-   "bytes": 262213,
+   "ms": 923,
+   "bytes": 262214,
    "x_robots": null,
    "title": "LLM Visibility: The Librarian Who Forgets",
    "meta_description": "An LLM is a librarian who has read every book and still forgets. Why LLM visibility takes being remembered and being found, and how to measure both.",
@@ -2329,7 +2350,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": null
   },
@@ -2337,8 +2358,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 300,
-   "bytes": 228376,
+   "ms": 920,
+   "bytes": 228375,
    "x_robots": null,
    "title": "Searchbloom Wins a Search Engine Land Award",
    "meta_description": "Searchbloom made all 3 finalist lists at the Search Engine Land Awards and won Best eCommerce Search Marketing Initiative (SEO) for MJ Arsenal.",
@@ -2361,7 +2382,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "post-sitemap.xml",
    "lastmod": "2026-10-26T10:00:00+00:00"
   },
@@ -2369,7 +2390,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 88,
+   "ms": 39,
    "bytes": 244346,
    "x_robots": null,
    "title": "Beyond the Corpus: Win AI Search on the Corpus Gap",
@@ -2404,7 +2425,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 41,
+   "ms": 54,
    "bytes": 252239,
    "x_robots": null,
    "title": "Other People's Pages: Why They Decide Your AI Visibility",
@@ -2436,7 +2457,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 98,
+   "ms": 38,
    "bytes": 267060,
    "x_robots": null,
    "title": "Information Gain Decay: Why Your Best Content Loses Its Edge",
@@ -2471,7 +2492,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 94,
+   "ms": 40,
    "bytes": 250246,
    "x_robots": null,
    "title": "Consensus Collapse: Why AI Content Has No Information Gain - Searchbloom®",
@@ -2506,7 +2527,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 115,
+   "ms": 37,
    "bytes": 233152,
    "x_robots": null,
    "title": "Should You Bid on Branded Keywords? We Ran the Holdback Test",
@@ -2538,7 +2559,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 154,
+   "ms": 63,
    "bytes": 246780,
    "x_robots": null,
    "title": "The Novelty Illusion: New Facts vs New Information",
@@ -2573,7 +2594,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 48,
+   "ms": 84,
    "bytes": 276290,
    "x_robots": null,
    "title": "Vector Dilution: Why Comprehensive Content Stops Getting Cited - Searchbloom®",
@@ -2606,7 +2627,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 84,
+   "ms": 51,
    "bytes": 265829,
    "x_robots": null,
    "title": "Sentiment Shaping: The Four Layers in AI Search",
@@ -2641,7 +2662,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 41,
+   "ms": 59,
    "bytes": 266779,
    "x_robots": null,
    "title": "Corpus Engineering vs Relevance Engineering",
@@ -2676,7 +2697,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 133,
+   "ms": 62,
    "bytes": 257879,
    "x_robots": null,
    "title": "Corpus Coverage: The Breadth Side of AI Search Visibility",
@@ -2711,7 +2732,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 77,
+   "ms": 98,
    "bytes": 243511,
    "x_robots": null,
    "title": "The Intra-Site Embedding Audit: Measuring Your Corpus Against Itself",
@@ -2746,7 +2767,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 117,
+   "ms": 51,
    "bytes": 247185,
    "x_robots": null,
    "title": "The Anchor Set: A Methodology for Stable AI-Search Measurement",
@@ -2781,7 +2802,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 71,
+   "ms": 45,
    "bytes": 246888,
    "x_robots": null,
    "title": "Citation Half-Life: The Decay Curve Behind AI Search Visibility",
@@ -2816,7 +2837,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 42,
+   "ms": 54,
    "bytes": 259187,
    "x_robots": null,
    "title": "Semantic-Relationship Drift: When Entity Relationships Shift",
@@ -2851,7 +2872,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 167,
+   "ms": 40,
    "bytes": 261542,
    "x_robots": null,
    "title": "The Embedding Migration: The Re-Baseline Workflow for Vector Drift",
@@ -2886,7 +2907,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 74,
+   "ms": 69,
    "bytes": 250222,
    "x_robots": null,
    "title": "Corpus Drift: When the SERP Moves Around Your Content",
@@ -2921,7 +2942,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 77,
+   "ms": 39,
    "bytes": 259201,
    "x_robots": null,
    "title": "Vector Drift: When the Embedding Model Changes Under Your Measurement",
@@ -2956,7 +2977,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 150,
+   "ms": 51,
    "bytes": 254556,
    "x_robots": null,
    "title": "How Much Does Hiring an SEO Company Cost in 2026?",
@@ -2992,7 +3013,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 52,
+   "ms": 56,
    "bytes": 238827,
    "x_robots": null,
    "title": "AI Image Prompts: The S.E.E.D. Framework for Better Results - Searchbloom®",
@@ -3027,7 +3048,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 58,
+   "ms": 52,
    "bytes": 231849,
    "x_robots": null,
    "title": "Google Modifies Search Results Parameter, Affecting Rank Tracking & SEO Tools - Searchbloom®",
@@ -3062,7 +3083,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 56,
+   "ms": 41,
    "bytes": 261997,
    "x_robots": null,
    "title": "Google Ads is NOT Google AdWords - Searchbloom®",
@@ -3094,7 +3115,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 145,
+   "ms": 82,
    "bytes": 229256,
    "x_robots": null,
    "title": "Sam Altman Says the AI Bubble Is Popping: What It Means for SEO and Businesses - Searchbloom®",
@@ -3126,7 +3147,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 42,
+   "ms": 54,
    "bytes": 246266,
    "x_robots": null,
    "title": "Everything To Know About Optimizing Core Web Vitals - Searchbloom®",
@@ -3158,7 +3179,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 77,
+   "ms": 52,
    "bytes": 232697,
    "x_robots": null,
    "title": "Yoast SEO vs Rank Math vs AIO SEO: Best Wordpress SEO Plugin Comparison 2023 - Searchbloom®",
@@ -3190,7 +3211,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 50,
+   "ms": 45,
    "bytes": 221391,
    "x_robots": null,
    "title": "Clutch.co Hails Searchbloom as Game-Changing SEO Agency",
@@ -3222,7 +3243,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 48,
+   "ms": 43,
    "bytes": 220851,
    "x_robots": null,
    "title": "Searchbloom Acquires Digital Broiler [COM]",
@@ -3254,7 +3275,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 48,
+   "ms": 63,
    "bytes": 243581,
    "x_robots": null,
    "title": "Google Search Operators: A Guide to Advanced Search Operators - Searchbloom®",
@@ -3286,7 +3307,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 68,
+   "ms": 37,
    "bytes": 220750,
    "x_robots": null,
    "title": "Searchbloom Is Part of the Clutch Global 1000 Once Again - Searchbloom®",
@@ -3318,8 +3339,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 57,
-   "bytes": 222174,
+   "ms": 55,
+   "bytes": 222173,
    "x_robots": null,
    "title": "Understanding Query Types & Search Intent - Searchbloom®",
    "meta_description": "To understand keyword metrics, you first need to have an understanding of the various types of queries and the search intent behind them. Click here to read on.",
@@ -3350,7 +3371,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 118,
+   "ms": 74,
    "bytes": 219630,
    "x_robots": null,
    "title": "Searchbloom Tops Clutch’s Search Engine Marketing Services List in 2021 - Searchbloom®",
@@ -3382,7 +3403,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 54,
+   "ms": 40,
    "bytes": 221678,
    "x_robots": null,
    "title": "Boost Your Seo - Go Local, Go Mobile | Searchbloom®",
@@ -3414,7 +3435,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 54,
+   "ms": 66,
    "bytes": 222718,
    "x_robots": null,
    "title": "Searchbloom Makes Clutch’s Annual List of Top SEO & PPC Firms in Utah - Searchbloom®",
@@ -3446,7 +3467,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 120,
+   "ms": 41,
    "bytes": 224193,
    "x_robots": null,
    "title": "The Five Business Factors to SEO Services - Searchbloom®",
@@ -3478,7 +3499,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 68,
+   "ms": 46,
    "bytes": 231498,
    "x_robots": null,
    "title": "Searchbloom Named Top Digital Marketing Service Provider in the World - Searchbloom®",
@@ -3510,7 +3531,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 47,
+   "ms": 57,
    "bytes": 221096,
    "x_robots": null,
    "title": "Searchbloom Earns Impressive Reviews on Clutch! - Searchbloom®",
@@ -3542,7 +3563,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 53,
+   "ms": 50,
    "bytes": 226123,
    "x_robots": null,
    "title": "A Guide to a Successful Website Silo - Searchbloom®",
@@ -3574,7 +3595,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 126,
+   "ms": 64,
    "bytes": 223694,
    "x_robots": null,
    "title": "Influencer Marketing Explosion! | Searchbloom®",
@@ -3606,7 +3627,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 125,
+   "ms": 63,
    "bytes": 236093,
    "x_robots": null,
    "title": "How to Build an SEO Content Calendar Around Information Gain - Searchbloom®",
@@ -3638,7 +3659,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 103,
+   "ms": 56,
    "bytes": 222189,
    "x_robots": null,
    "title": "Rich Snippets Increase Organic Rankings - Searchbloom®",
@@ -3670,7 +3691,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 49,
+   "ms": 48,
    "bytes": 222786,
    "x_robots": null,
    "title": "Marketing with a Loyalty Program - Searchbloom®",
@@ -3702,7 +3723,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 126,
+   "ms": 51,
    "bytes": 221051,
    "x_robots": null,
    "title": "Searchbloom Excels in Clutch Research - Searchbloom®",
@@ -3734,7 +3755,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 61,
+   "ms": 54,
    "bytes": 317270,
    "x_robots": null,
    "title": "Search Engine Marketing Agency - Top Rated SEO & PPC Management Services - Searchbloom®",
@@ -3768,8 +3789,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 229,
-   "bytes": 519015,
+   "ms": 824,
+   "bytes": 519016,
    "x_robots": null,
    "title": "Indexation & AI-Bot Readiness | MERIT Framework by Searchbloom",
    "meta_description": "Keep AI Search access current and verified: IndexNow and the Google Indexing API for fast indexing, Web Bot Auth to verify AI crawlers, plus the agent-readiness horizon.",
@@ -3798,7 +3819,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:57:05+00:00"
   },
@@ -3806,7 +3827,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 188,
+   "ms": 979,
    "bytes": 250323,
    "x_robots": null,
    "title": "Best AI SEO Training Playbook | MERIT Framework by Searchbloom",
@@ -3835,7 +3856,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:56:20+00:00"
   },
@@ -3843,8 +3864,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 205,
-   "bytes": 276720,
+   "ms": 1016,
+   "bytes": 276719,
    "x_robots": null,
    "title": "AI SEO: Team & Org Model | MERIT Framework by Searchbloom",
    "meta_description": "Organizational evolution for AI SEO: the functional roles, team structures, and maturity curve that sustain a MERIT engagement.",
@@ -3873,7 +3894,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:55:50+00:00"
   },
@@ -3881,8 +3902,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 231,
-   "bytes": 548234,
+   "ms": 846,
+   "bytes": 548239,
    "x_robots": null,
    "title": "AI SEO: Brand Sentiment | MERIT Framework by Searchbloom",
    "meta_description": "Brand sentiment for AI SEO: measure your Sentiment Footprint across four layers, then shape it on owned, third-party, community, and review surfaces.",
@@ -3911,7 +3932,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:55:20+00:00"
   },
@@ -3919,8 +3940,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 249,
-   "bytes": 277088,
+   "ms": 844,
+   "bytes": 277086,
    "x_robots": null,
    "title": "AI SEO Tracking & Metrics | MERIT Framework by Searchbloom",
    "meta_description": "Measurement cadence for AI SEO: realistic timelines, core KPIs, the tools landscape, and executive reporting for AI visibility.",
@@ -3949,7 +3970,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:54:48+00:00"
   },
@@ -3957,8 +3978,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 173,
-   "bytes": 274490,
+   "ms": 785,
+   "bytes": 274487,
    "x_robots": null,
    "title": "Entity Optimization for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Entity optimization for AI SEO: brand, people, product, and topical entity work across the Knowledge Panel, Knowledge Graph, and Wikidata.",
@@ -3987,7 +4008,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:54:18+00:00"
   },
@@ -3995,8 +4016,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 228,
-   "bytes": 530810,
+   "ms": 720,
+   "bytes": 530811,
    "x_robots": null,
    "title": "AI SEO: Crawler Access | MERIT Framework by Searchbloom",
    "meta_description": "Crawler access for AI SEO: robots.txt and CDN posture for GPTBot, ClaudeBot, and the AI bots that retrieve your content.",
@@ -4025,7 +4046,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:53:49+00:00"
   },
@@ -4033,7 +4054,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 5294,
+   "ms": 820,
    "bytes": 275420,
    "x_robots": null,
    "title": "Schema Markup for AI SEO | MERIT Framework by Searchbloom",
@@ -4064,7 +4085,6 @@
    ],
    "hreflang": 0,
    "cache": "MISS",
-   "ms_retry": 43,
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:53:05+00:00"
   },
@@ -4072,8 +4092,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 210,
-   "bytes": 278958,
+   "ms": 770,
+   "bytes": 278954,
    "x_robots": null,
    "title": "Multi-Format Content for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Multi-format surface coverage for AI SEO: video, images, and structured data as citation surfaces for multimodal AI retrieval.",
@@ -4102,7 +4122,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:52:33+00:00"
   },
@@ -4110,8 +4130,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 184,
-   "bytes": 279826,
+   "ms": 855,
+   "bytes": 279829,
    "x_robots": null,
    "title": "Answer-First Content for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Answer-first content architecture for AI SEO: self-contained, citable passages structured at the passage level for RAG retrieval.",
@@ -4140,7 +4160,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:52:04+00:00"
   },
@@ -4148,8 +4168,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 223,
-   "bytes": 535807,
+   "ms": 722,
+   "bytes": 535806,
    "x_robots": null,
    "title": "Creating Original Content for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Original source asset development for AI SEO: frameworks, opinion, research, calculators, and templates that AI systems cite.",
@@ -4178,7 +4198,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:51:35+00:00"
   },
@@ -4186,7 +4206,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 235,
+   "ms": 706,
    "bytes": 541680,
    "x_robots": null,
    "title": "Information Gain for AI SEO | MERIT Framework by Searchbloom",
@@ -4216,7 +4236,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:50:50+00:00"
   },
@@ -4224,8 +4244,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 197,
-   "bytes": 530956,
+   "ms": 732,
+   "bytes": 530952,
    "x_robots": null,
    "title": "Topical Clusters for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Citation reinforcement and topical clusters for AI SEO: hub-and-spoke depth that compounds the authority AI systems reward.",
@@ -4235,7 +4255,7 @@
     "Citation Reinforcement and Topical Clusters for AI SEO"
    ],
    "h1_count": 1,
-   "words": 7955,
+   "words": 7954,
    "schema_types": [
     "Answer",
     "Article",
@@ -4254,7 +4274,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:50:20+00:00"
   },
@@ -4262,7 +4282,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 214,
+   "ms": 858,
    "bytes": 273523,
    "x_robots": null,
    "title": "Third-Party Corroboration for AI SEO | MERIT Framework by Searchbloom",
@@ -4292,7 +4312,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:49:50+00:00"
   },
@@ -4300,8 +4320,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 221,
-   "bytes": 273987,
+   "ms": 853,
+   "bytes": 273988,
    "x_robots": null,
    "title": "Pay-to-Play Placements for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Pay-to-play placements for AI SEO: premium positions on review and directory platforms where AI systems source brand signals.",
@@ -4330,7 +4350,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:49:20+00:00"
   },
@@ -4338,8 +4358,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 246,
-   "bytes": 276043,
+   "ms": 889,
+   "bytes": 276045,
    "x_robots": null,
    "title": "Community Mentions for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Community mentions and positive sentiment for AI SEO: authentic engagement on Reddit, Quora, and LinkedIn that AI systems read.",
@@ -4349,7 +4369,7 @@
     "Community Mentions and Positive Sentiment in AI SEO"
    ],
    "h1_count": 1,
-   "words": 7897,
+   "words": 7898,
    "schema_types": [
     "Answer",
     "Article",
@@ -4368,7 +4388,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:48:50+00:00"
   },
@@ -4376,8 +4396,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 239,
-   "bytes": 260011,
+   "ms": 878,
+   "bytes": 260013,
    "x_robots": null,
    "title": "AI SEO Glossary & Definitions | MERIT Framework by Searchbloom",
    "meta_description": "AI SEO glossary: clear definitions of AEO, GEO, information gain, entity optimization, and the core terms used across MERIT.",
@@ -4402,7 +4422,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:48:20+00:00"
   },
@@ -4410,7 +4430,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 165,
+   "ms": 811,
    "bytes": 267609,
    "x_robots": null,
    "title": "What Is AI SEO? FAQ | MERIT Framework by Searchbloom",
@@ -4439,7 +4459,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:47:51+00:00"
   },
@@ -4447,8 +4467,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 211,
-   "bytes": 227665,
+   "ms": 858,
+   "bytes": 227668,
    "x_robots": null,
    "title": "AI SEO: Sources & Research | MERIT Framework by Searchbloom",
    "meta_description": "AI SEO sources and further reading: the research, studies, and citations behind the MERIT framework, organized for verification.",
@@ -4473,7 +4493,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:47:20+00:00"
   },
@@ -4481,8 +4501,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 235,
-   "bytes": 236967,
+   "ms": 883,
+   "bytes": 236965,
    "x_robots": null,
    "title": "AI SEO: Where to Start | MERIT Framework by Searchbloom",
    "meta_description": "Where to start with AI SEO: how to put the MERIT framework to work, sequence the pillars, and prioritize the first moves.",
@@ -4507,7 +4527,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:46:49+00:00"
   },
@@ -4515,8 +4535,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 197,
-   "bytes": 227327,
+   "ms": 783,
+   "bytes": 227331,
    "x_robots": null,
    "title": "AI SEO Case Studies | MERIT Framework by Searchbloom",
    "meta_description": "AI SEO case studies: third-party validated examples of brands earning AI citations through the MERIT pillars and chapters.",
@@ -4526,7 +4546,7 @@
     "AI SEO Case Studies"
    ],
    "h1_count": 1,
-   "words": 2027,
+   "words": 2028,
    "schema_types": [
     "Article",
     "Book",
@@ -4541,7 +4561,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:46:20+00:00"
   },
@@ -4549,8 +4569,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 206,
-   "bytes": 250848,
+   "ms": 841,
+   "bytes": 250852,
    "x_robots": null,
    "title": "AI SEO vs SEO: The Difference | MERIT Framework by Searchbloom",
    "meta_description": "AI SEO vs relabeled SEO: why AEO/GEO is an evolution of SEO, not a separate discipline, and the nuances that still matter.",
@@ -4575,7 +4595,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:45:48+00:00"
   },
@@ -4583,8 +4603,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 229,
-   "bytes": 221803,
+   "ms": 855,
+   "bytes": 221805,
    "x_robots": null,
    "title": "Technical Access for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Inclusion is the MERIT pillar covering technical access for AI SEO: crawler access and semantic precision so AI can read your content.",
@@ -4609,7 +4629,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:45:20+00:00"
   },
@@ -4617,8 +4637,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 252,
-   "bytes": 480166,
+   "ms": 67,
+   "bytes": 480167,
    "x_robots": null,
    "title": "Third-Party Citations for AI SEO | MERIT Framework by Searchbloom",
    "meta_description": "Mentions is the MERIT pillar covering third-party citation strategies for AI SEO: review platforms, communities, and earned coverage.",
@@ -4643,7 +4663,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-29T23:44:50+00:00"
   },
@@ -4651,7 +4671,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 237,
+   "ms": 426,
    "bytes": 70938,
    "x_robots": null,
    "title": "AI Information + Instructions (ChatGPT, Claude, Gemini, Google AI) | Searchbloom",
@@ -4670,7 +4690,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "page-sitemap.xml",
    "lastmod": "2026-10-14T17:57:43+00:00"
   },
@@ -4678,7 +4698,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 135,
+   "ms": 46,
    "bytes": 252501,
    "x_robots": null,
    "title": "AI SEO: The MERIT Framework for LLM Visibility",
@@ -4713,7 +4733,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 146,
+   "ms": 54,
    "bytes": 227442,
    "x_robots": null,
    "title": "Best AI SEO Tools (2026) | MERIT Framework by Searchbloom",
@@ -4747,7 +4767,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 99,
+   "ms": 43,
    "bytes": 221470,
    "x_robots": null,
    "title": "Content Structure for AI SEO | MERIT Framework by Searchbloom",
@@ -4781,7 +4801,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 53,
+   "ms": 55,
    "bytes": 229745,
    "x_robots": null,
    "title": "AI SEO Playbook (AEO/GEO) | MERIT Framework by Searchbloom",
@@ -4815,7 +4835,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 54,
+   "ms": 43,
    "bytes": 221906,
    "x_robots": null,
    "title": "Measuring & Sustaining AI SEO | MERIT Framework by Searchbloom",
@@ -4849,7 +4869,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 77,
+   "ms": 51,
    "bytes": 237149,
    "x_robots": null,
    "title": "AI SEO Checklist & Templates | MERIT Framework by Searchbloom",
@@ -4883,7 +4903,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 61,
+   "ms": 68,
    "bytes": 222105,
    "x_robots": null,
    "title": "Original Source Assets for AI SEO | MERIT Framework by Searchbloom",
@@ -4917,7 +4937,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 52,
+   "ms": 41,
    "bytes": 217493,
    "x_robots": null,
    "title": "Searchbloom's Methodologies",
@@ -4952,7 +4972,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 67,
+   "ms": 44,
    "bytes": 324233,
    "x_robots": null,
    "title": "Company - Searchbloom®",
@@ -4986,7 +5006,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 60,
+   "ms": 42,
    "bytes": 242213,
    "x_robots": null,
    "title": "Award-winning Search Marketing Agency...and here's the proof",
@@ -5016,7 +5036,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 51,
+   "ms": 75,
    "bytes": 227949,
    "x_robots": null,
    "title": "Contact Us - Searchbloom®",
@@ -5045,7 +5065,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 50,
+   "ms": 62,
    "bytes": 243491,
    "x_robots": null,
    "title": "Digital Marketing Jobs - Searchbloom® Careers",
@@ -5079,7 +5099,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 143,
+   "ms": 61,
    "bytes": 210164,
    "x_robots": null,
    "title": "Sitemap - Searchbloom®",
@@ -5109,7 +5129,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 55,
+   "ms": 64,
    "bytes": 213099,
    "x_robots": null,
    "title": "Searchbloom Reviews - Searchbloom®",
@@ -5141,7 +5161,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 69,
+   "ms": 51,
    "bytes": 156044,
    "x_robots": null,
    "title": "Search Marketing Blog",
@@ -5173,7 +5193,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 50,
+   "ms": 48,
    "bytes": 253824,
    "x_robots": null,
    "title": "Leadership Team - Searchbloom®",
@@ -5204,7 +5224,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 50,
+   "ms": 66,
    "bytes": 215014,
    "x_robots": null,
    "title": "Search Marketing Toolset - Searchbloom®",
@@ -5234,7 +5254,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 83,
+   "ms": 39,
    "bytes": 240542,
    "x_robots": null,
    "title": "SEO Referral Program - Searchbloom®",
@@ -5266,7 +5286,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 53,
+   "ms": 58,
    "bytes": 265868,
    "x_robots": null,
    "title": "SEO & PPC Marketing Case Studies - Searchbloom®",
@@ -5298,8 +5318,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 207,
-   "bytes": 451506,
+   "ms": 692,
+   "bytes": 451511,
    "x_robots": null,
    "title": "Comparisons - Searchbloom®",
    "meta_description": "Comparisons Archive - Searchbloom®",
@@ -5307,7 +5327,7 @@
    "robots_meta": "follow, index",
    "h1": [],
    "h1_count": 0,
-   "words": 608,
+   "words": 609,
    "schema_types": [
     "BreadcrumbList",
     "CollectionPage",
@@ -5320,7 +5340,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "comparison-sitemap.xml",
    "lastmod": "2026-10-29T22:43:20+00:00"
   },
@@ -5328,8 +5348,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 312,
-   "bytes": 256982,
+   "ms": 46,
+   "bytes": 256983,
    "x_robots": null,
    "title": "Ahrefs vs seoClarity (2026): Features, Pricing & Data",
    "meta_description": "Ahrefs vs seoClarity, feature by feature: pricing, backlink and keyword data, rank tracking, AI search tracking, API and MCP, and which team each fits.",
@@ -5350,7 +5370,7 @@
     "Question"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "comparison-sitemap.xml",
    "lastmod": "2026-10-29T22:43:20+00:00"
   },
@@ -5358,8 +5378,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 219,
-   "bytes": 464362,
+   "ms": 775,
+   "bytes": 464363,
    "x_robots": null,
    "title": "Strategies - Searchbloom®",
    "meta_description": "Strategies Archive - Searchbloom®",
@@ -5380,7 +5400,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-29T23:31:16+00:00"
   },
@@ -5388,8 +5408,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 221,
-   "bytes": 575307,
+   "ms": 112,
+   "bytes": 575311,
    "x_robots": null,
    "title": "Best PPC Agencies in the USA in 2026: Fees and Results",
    "meta_description": "10 PPC agencies scored on conversion tracking, paid search depth, landing pages, channels, and results, with every fee and result checked at the source.",
@@ -5415,7 +5435,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-29T23:31:16+00:00"
   },
@@ -5423,8 +5443,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 225,
-   "bytes": 329111,
+   "ms": 72,
+   "bytes": 580065,
    "x_robots": null,
    "title": "Best AI SEO Companies in 2026: AEO and GEO Fees and Results",
    "meta_description": "9 AI SEO companies scored on AI Overviews, LLM citations, technical work, authority, and results, with every fee and result checked at the source.",
@@ -5450,7 +5470,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-29T22:51:29+00:00"
   },
@@ -5458,8 +5478,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 215,
-   "bytes": 316758,
+   "ms": 922,
+   "bytes": 316756,
    "x_robots": null,
    "title": "The 10 Best SEO Consultants in 2026, Ranked and Scored",
    "meta_description": "A scored, transparent ranking of the best SEO consultants in 2026, from independent experts to a full-service consultancy. See who ranks where and why.",
@@ -5485,7 +5505,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-14T19:57:10+00:00"
   },
@@ -5493,8 +5513,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 230,
-   "bytes": 590950,
+   "ms": 767,
+   "bytes": 590955,
    "x_robots": null,
    "title": "Best SEO Agencies for Remodeling Contractors in 2026: Fees, Terms, and Results",
    "meta_description": "10 SEO agencies for kitchen, bath, and home remodelers scored on local SEO, remodeling content, technical work, lead tracking, and results, with every fee checked at the source.",
@@ -5520,7 +5540,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-14T19:53:10+00:00"
   },
@@ -5528,8 +5548,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 232,
-   "bytes": 338201,
+   "ms": 843,
+   "bytes": 338197,
    "x_robots": null,
    "title": "Best SEO Agencies for Personal Injury Law Firms in 2026: Fees, Terms, and Results",
    "meta_description": "10 personal injury SEO agencies scored on local SEO, practice-area content, authority, intake tracking, and results, with every fee and result checked at the source.",
@@ -5555,7 +5575,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-14T19:53:00+00:00"
   },
@@ -5563,8 +5583,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 220,
-   "bytes": 335086,
+   "ms": 862,
+   "bytes": 335088,
    "x_robots": null,
    "title": "Best Google Ads Agencies for Law Firms in 2026: Fees and Results",
    "meta_description": "10 law firm PPC agencies scored on signed-case tracking, paid search, landing pages, channels, and law firm results, with every fee and result checked at the source.",
@@ -5590,7 +5610,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-14T19:52:54+00:00"
   },
@@ -5598,8 +5618,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 221,
-   "bytes": 335264,
+   "ms": 864,
+   "bytes": 335265,
    "x_robots": null,
    "title": "Best Ecommerce PPC Agencies in 2026: Fees, Minimums, and Results",
    "meta_description": "10 ecommerce PPC agencies scored on feed and Shopping depth, profit measurement, search depth, creative, and results, with every fee checked at the source.",
@@ -5625,7 +5645,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-14T19:52:48+00:00"
   },
@@ -5633,8 +5653,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 217,
-   "bytes": 585725,
+   "ms": 782,
+   "bytes": 585727,
    "x_robots": null,
    "title": "Best CRO Agencies in 2026: Fees, Floors, and Results",
    "meta_description": "10 CRO agencies scored on method, statistics, in-house builds, search integration, and results, with every fee and result checked at the source.",
@@ -5660,7 +5680,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-14T19:52:42+00:00"
   },
@@ -5668,8 +5688,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 258,
-   "bytes": 320481,
+   "ms": 1033,
+   "bytes": 320485,
    "x_robots": null,
    "title": "Best B2B SEO Agencies - Searchbloom®",
    "meta_description": "Compare the top B2B SEO agencies for strategy, contract terms, reporting, and support models to determine which partner best fits your business goals.",
@@ -5695,7 +5715,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-10-13T19:31:58+00:00"
   },
@@ -5703,8 +5723,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 186,
-   "bytes": 564060,
+   "ms": 838,
+   "bytes": 564061,
    "x_robots": null,
    "title": "5 Top-Rated Google Ads Agencies for 2026",
    "meta_description": "Compare the top Google Ads agencies for 2026 by pricing, ROI, and contract terms. See which partner fits high-spend ecommerce and lead gen goals.",
@@ -5729,7 +5749,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:28:32+00:00"
   },
@@ -5737,8 +5757,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 229,
-   "bytes": 554370,
+   "ms": 872,
+   "bytes": 554373,
    "x_robots": null,
    "title": "The 10 Best Retail SEO Companies in 2026",
    "meta_description": "Compare the 10 best retail SEO companies of 2026 on ecommerce SEO, local store visibility, results, and pricing, and find the right fit for your retail brand.",
@@ -5764,7 +5784,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -5772,7 +5792,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 201,
+   "ms": 977,
    "bytes": 296346,
    "x_robots": null,
    "title": "The 10 Best Shopify SEO Agencies in 2026",
@@ -5799,7 +5819,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -5807,8 +5827,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 248,
-   "bytes": 302766,
+   "ms": 956,
+   "bytes": 302768,
    "x_robots": null,
    "title": "Best SEO Companies for Small Business in 2026 | Searchbloom",
    "meta_description": "Ranked across 8 weighted factors: the 12 best SEO companies for small business in 2026. Compare verified reviews, pricing, and results before you hire.",
@@ -5834,7 +5854,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -5842,8 +5862,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 215,
-   "bytes": 309537,
+   "ms": 73,
+   "bytes": 560234,
    "x_robots": null,
    "title": "The 15 Best SEO Companies + Services 2026",
    "meta_description": "Looking for the best SEO companies in the US to maximize your online presence? Here are the top 15 SEO firms in 2026, known for delivering outstanding results.",
@@ -5853,7 +5873,7 @@
     "The 15 Best SEO Companies + Services 2026"
    ],
    "h1_count": 1,
-   "words": 6579,
+   "words": 6580,
    "schema_types": [
     "Answer",
     "Article",
@@ -5877,7 +5897,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 188,
+   "ms": 994,
    "bytes": 356971,
    "x_robots": null,
    "title": "The Best AI SEO Tools for 2026 (Ranked and Tested)",
@@ -5907,7 +5927,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -5915,7 +5935,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 193,
+   "ms": 853,
    "bytes": 559621,
    "x_robots": null,
    "title": "The 10 Best Technical SEO Agencies in 2026",
@@ -5926,7 +5946,7 @@
     "The 10 Best Technical SEO Agencies in 2026"
    ],
    "h1_count": 1,
-   "words": 7974,
+   "words": 7973,
    "schema_types": [
     "Answer",
     "Article",
@@ -5942,7 +5962,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -5950,8 +5970,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 187,
-   "bytes": 278382,
+   "ms": 1001,
+   "bytes": 278386,
    "x_robots": null,
    "title": "The 12 Best SEO Agencies to Hire in 2026 (DesignRush Ranked)",
    "meta_description": "DesignRush named the 12 best SEO agencies to hire in 2026 and ranked Searchbloom #1. See the full list, what set each agency apart, and how the ranking was made.",
@@ -5977,7 +5997,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -5985,8 +6005,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 214,
-   "bytes": 548450,
+   "ms": 134,
+   "bytes": 548448,
    "x_robots": null,
    "title": "The 10 Best SEO Companies for Doctors in 2026",
    "meta_description": "Compare the 10 best SEO companies for doctors on local search, medical content, technical SEO, patient conversion, and AI search to find the right fit for your practice.",
@@ -6020,8 +6040,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 231,
-   "bytes": 305862,
+   "ms": 1064,
+   "bytes": 305865,
    "x_robots": null,
    "title": "The 12 Best ChatGPT SEO Agencies for AI Search (2026)",
    "meta_description": "The best ChatGPT SEO agencies, scored on a checkable 50-point rubric for AI visibility, entity data, and citations. See who ranks, and why.",
@@ -6047,7 +6067,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 2",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6055,7 +6075,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 203,
+   "ms": 1070,
    "bytes": 296740,
    "x_robots": null,
    "title": "The 10 Best Church SEO Companies in 2026",
@@ -6082,7 +6102,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6090,8 +6110,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 136,
-   "bytes": 554806,
+   "ms": 1147,
+   "bytes": 554809,
    "x_robots": null,
    "title": "The 10 Best Veterinary SEO Companies in 2026",
    "meta_description": "Compare the 10 best veterinary SEO companies of 2026 on local search depth, results, and pricing, and see how to choose the right fit for your practice.",
@@ -6117,7 +6137,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6125,7 +6145,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 5593,
+   "ms": 881,
    "bytes": 506065,
    "x_robots": null,
    "title": "Top SEO Agencies for Franchises - Searchbloom®",
@@ -6153,7 +6173,6 @@
    ],
    "hreflang": 0,
    "cache": "MISS",
-   "ms_retry": 76,
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6161,8 +6180,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 212,
-   "bytes": 559009,
+   "ms": 74,
+   "bytes": 559004,
    "x_robots": null,
    "title": "10 Best Ecommerce Email Marketing Agencies - Searchbloom®",
    "meta_description": "An unbiased ranking from a firm that does not sell email: the 10 best ecommerce email marketing agencies, judged on Klaviyo expertise, results, and fit.",
@@ -6188,7 +6207,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6196,8 +6215,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 230,
-   "bytes": 331590,
+   "ms": 71,
+   "bytes": 331609,
    "x_robots": null,
    "title": "12 Best Enterprise PPC Agencies in 2026 (We Evaluated 47)",
    "meta_description": "We scored 47 enterprise PPC agencies on Performance, Automation, Compliance & Expertise. See which 12 made the cut for $85K+ monthly budgets - with transparent methodology.",
@@ -6222,7 +6241,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6230,8 +6249,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 214,
-   "bytes": 298807,
+   "ms": 149,
+   "bytes": 298804,
    "x_robots": null,
    "title": "Best SEO Agency for SaaS Companies - Searchbloom®",
    "meta_description": "Compare the top SEO agencies for SaaS companies. Explore strengths, services, and case studies to find the right partner for your growth goals.",
@@ -6265,8 +6284,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 227,
-   "bytes": 506292,
+   "ms": 1240,
+   "bytes": 506299,
    "x_robots": null,
    "title": "Best Digital Marketing Agencies for Rehabs - Searchbloom®",
    "meta_description": "Compare the top digital marketing agencies for addiction treatment centers in 2026, with rankings, services, and what to ask before you hire one.",
@@ -6276,7 +6295,7 @@
     "Best Digital Marketing Agencies for Rehabs"
    ],
    "h1_count": 1,
-   "words": 1566,
+   "words": 1567,
    "schema_types": [
     "Answer",
     "Article",
@@ -6289,7 +6308,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6297,7 +6316,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 196,
+   "ms": 1129,
    "bytes": 259788,
    "x_robots": null,
    "title": "Top Financial Services SEO Agencies - Searchbloom®",
@@ -6321,7 +6340,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6329,8 +6348,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 207,
-   "bytes": 257927,
+   "ms": 1183,
+   "bytes": 257928,
    "x_robots": null,
    "title": "Best SEO Services for Manufacturers - Searchbloom®",
    "meta_description": "Compare the best SEO companies for manufacturers in 2026, with rankings, industrial SEO services, and what to ask before you hire one.",
@@ -6353,7 +6372,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6361,8 +6380,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 216,
-   "bytes": 296881,
+   "ms": 1136,
+   "bytes": 296883,
    "x_robots": null,
    "title": "Best SEO Services for Lawyers 2026 - Searchbloom®",
    "meta_description": "Discover the best SEO services for lawyers. Compare top agencies on strategy, reporting, contracts, and case growth to choose the right partner.",
@@ -6372,7 +6391,7 @@
     "Best SEO Services for Lawyers 2026"
    ],
    "h1_count": 1,
-   "words": 6379,
+   "words": 6380,
    "schema_types": [
     "Answer",
     "Article",
@@ -6388,7 +6407,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6396,8 +6415,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 172,
-   "bytes": 297051,
+   "ms": 1088,
+   "bytes": 297052,
    "x_robots": null,
    "title": "Best Local SEO Agencies - Searchbloom®",
    "meta_description": "Compare the best local SEO agencies of 2026, scored on local and technical SEO, content, AI search, and documented results, with pricing tiers.",
@@ -6423,7 +6442,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6431,8 +6450,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 228,
-   "bytes": 508339,
+   "ms": 917,
+   "bytes": 508341,
    "x_robots": null,
    "title": "Best SEO Agencies in Utah - Searchbloom®",
    "meta_description": "Compare the best SEO agencies in Utah for 2026, with rankings, services, pricing, and what Utah businesses should ask before hiring one.",
@@ -6442,7 +6461,7 @@
     "Best SEO Agencies in Utah"
    ],
    "h1_count": 1,
-   "words": 2103,
+   "words": 2104,
    "schema_types": [
     "Answer",
     "Article",
@@ -6458,7 +6477,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6466,8 +6485,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 217,
-   "bytes": 510665,
+   "ms": 1117,
+   "bytes": 510669,
    "x_robots": null,
    "title": "Best SEO Agencies for Plastic Surgeons - Searchbloom®",
    "meta_description": "Compare U.S. agencies that specialize in plastic surgery SEO. Review strengths, use cases, and approaches to local SEO, content, CRO, and compliance.",
@@ -6491,7 +6510,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6499,8 +6518,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 175,
-   "bytes": 298777,
+   "ms": 1099,
+   "bytes": 298775,
    "x_robots": null,
    "title": "Best SEO Services for Dentists (US Agencies) - Searchbloom®",
    "meta_description": "Compare the top US SEO services for dentists. See strengths, strategies, and agencies to help your dental practice grow patient leads.",
@@ -6526,7 +6545,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6534,7 +6553,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 231,
+   "ms": 1165,
    "bytes": 296832,
    "x_robots": null,
    "title": "Best Enterprise SEO Agencies - Searchbloom®",
@@ -6561,7 +6580,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6569,8 +6588,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 210,
-   "bytes": 545524,
+   "ms": 1032,
+   "bytes": 545523,
    "x_robots": null,
    "title": "Best Ecommerce SEO Agencies - Searchbloom®",
    "meta_description": "Compare the 10 best ecommerce SEO agencies, scored on catalog SEO, technical SEO, conversion, AI search visibility, and documented results.",
@@ -6596,7 +6615,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "strategy-sitemap.xml",
    "lastmod": "2026-09-29T19:23:49+00:00"
   },
@@ -6604,8 +6623,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 175,
-   "bytes": 488190,
+   "ms": 1110,
+   "bytes": 488191,
    "x_robots": null,
    "title": "Public Safety Equipment eCommerce SEO Case Study - Searchbloom®",
    "meta_description": "A public safety equipment and apparel retailer returned 22x on invested capital with Searchbloom eCommerce SEO. Read the full case study.",
@@ -6628,7 +6647,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-27T16:41:23+00:00"
   },
@@ -6636,7 +6655,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 203,
+   "ms": 1188,
    "bytes": 232825,
    "x_robots": null,
    "title": "Custom Suit Tailor Local SEO Case Study - Searchbloom®",
@@ -6660,7 +6679,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-27T16:41:23+00:00"
   },
@@ -6668,8 +6687,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 176,
-   "bytes": 483806,
+   "ms": 835,
+   "bytes": 483812,
    "x_robots": null,
    "title": "Vape Ejuice Seller eCommerce SEO Case Study - Searchbloom®",
    "meta_description": "A vape ejuice seller returned 52x on its investment and grew monthly revenue 68% with Searchbloom eCommerce SEO. Read the case study.",
@@ -6692,7 +6711,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-27T16:41:23+00:00"
   },
@@ -6700,8 +6719,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 193,
-   "bytes": 489564,
+   "ms": 919,
+   "bytes": 489559,
    "x_robots": null,
    "title": "Salvage Yard Local SEO Case Study - Searchbloom®",
    "meta_description": "Organic leads for a junkyard and salvage yard grew from 90 to over 170 per month with Searchbloom Local SEO. Read the full case study.",
@@ -6724,7 +6743,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-27T16:41:23+00:00"
   },
@@ -6732,8 +6751,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 223,
-   "bytes": 235747,
+   "ms": 1101,
+   "bytes": 235751,
    "x_robots": null,
    "title": "PPC Case Study for Home Remodeling Company - Searchbloom®",
    "meta_description": "Searchbloom increased conversion and lead volume by 1366% while decreasing cost per conversion by 40%! Check out this PPC Study Now!",
@@ -6756,7 +6775,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T02:30:00+00:00"
   },
@@ -6764,8 +6783,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 186,
-   "bytes": 492836,
+   "ms": 907,
+   "bytes": 492840,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study for Specialty Seed Seller- Searchbloom®",
    "meta_description": "Searchbloom achieved a 741% Increase in Revenue and a 300% increase in e-commerce conversion rate. Check out this E-commerce SEO Case Study Now!",
@@ -6788,7 +6807,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T02:30:00+00:00"
   },
@@ -6796,8 +6815,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 217,
-   "bytes": 489168,
+   "ms": 826,
+   "bytes": 489171,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study for Specialty Chair Store - Searchbloom®",
    "meta_description": "Searchbloom achieved a 1791% Increase in Total Ranking Keywords and a 1100% increase in referring domains. Check out this E-commerce SEO Case Study Now!",
@@ -6820,7 +6839,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T02:30:00+00:00"
   },
@@ -6828,8 +6847,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 223,
-   "bytes": 493655,
+   "ms": 802,
+   "bytes": 493660,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study for Retail Clothing Store - Searchbloom®",
    "meta_description": "Searchbloom outranked national brands and increased our partners revenue by 46%! Check out this Ecommerce SEO Case Study Now!",
@@ -6839,7 +6858,7 @@
     "Tshirt and Apparel Seller Ecommerce SEO Case Study"
    ],
    "h1_count": 1,
-   "words": 2415,
+   "words": 2416,
    "schema_types": [
     "Article",
     "BreadcrumbList",
@@ -6852,7 +6871,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T02:30:00+00:00"
   },
@@ -6860,8 +6879,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 171,
-   "bytes": 484198,
+   "ms": 920,
+   "bytes": 484205,
    "x_robots": null,
    "title": "National SEO Case Study: How a Mobile Notary Service Achieved Direct Results",
    "meta_description": "See the actual SEO results that transformed a mobile notary's web presence. Explore our case study now for actionable insights and strategies.",
@@ -6871,7 +6890,7 @@
     "SEO Case Study: How a Mobile Notary Service Achieved Direct Results"
    ],
    "h1_count": 1,
-   "words": 1251,
+   "words": 1252,
    "schema_types": [
     "Article",
     "BreadcrumbList",
@@ -6884,7 +6903,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T02:30:00+00:00"
   },
@@ -6892,7 +6911,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 202,
+   "ms": 1027,
    "bytes": 486476,
    "x_robots": null,
    "title": "E-Commerce CRO Case Study: 26% Increase in Conversion Rate",
@@ -6916,7 +6935,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T02:30:00+00:00"
   },
@@ -6924,8 +6943,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 179,
-   "bytes": 489872,
+   "ms": 1053,
+   "bytes": 489874,
    "x_robots": null,
    "title": "eCommerce SEO Case Study for a BigCommerce Store - Searchbloom®",
    "meta_description": "See how Searchbloom grew a BigCommerce baby gear retailer's organic traffic 43% in four months with comparison content, metadata, and technical fixes.",
@@ -6948,7 +6967,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-23T00:11:49+00:00"
   },
@@ -6956,8 +6975,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 153,
-   "bytes": 488645,
+   "ms": 978,
+   "bytes": 488643,
    "x_robots": null,
    "title": "Custom Closet Local SEO and AI SEO Case Study - Searchbloom®",
    "meta_description": "See how local SEO grew a custom closet company's leads from organic and AI search 122% by month four, with 36 converting to contacts, up from 14.",
@@ -6980,7 +6999,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-21T23:56:47+00:00"
   },
@@ -6988,8 +7007,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 202,
-   "bytes": 236838,
+   "ms": 1137,
+   "bytes": 236841,
    "x_robots": null,
    "title": "Multi-Location Local SEO Case Study - Searchbloom®",
    "meta_description": "See how Searchbloom grew a 34-store outdoor retailer's organic revenue 90.4% in one winter season, lifting Google Business Profile customer actions 25.3% and organic sessions 179.2%.",
@@ -7012,7 +7031,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-10-14T17:54:16+00:00"
   },
@@ -7020,8 +7039,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 136,
-   "bytes": 488706,
+   "ms": 918,
+   "bytes": 488708,
    "x_robots": null,
    "title": "Employment Law Firm CRO Case Study - Searchbloom®",
    "meta_description": "See how Searchbloom lifted an employment law firm's landing page to a 21% conversion rate, five times the legal industry median, with continuous Unbounce testing.",
@@ -7031,7 +7050,7 @@
     "Conversion Rate Optimization for an Employment Law Firm"
    ],
    "h1_count": 1,
-   "words": 1976,
+   "words": 1977,
    "schema_types": [
     "Article",
     "BreadcrumbList",
@@ -7044,7 +7063,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-08-28T19:22:36+00:00"
   },
@@ -7052,8 +7071,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 208,
-   "bytes": 490970,
+   "ms": 840,
+   "bytes": 490973,
    "x_robots": null,
    "title": "Shopify E-Commerce SEO Case Study - Searchbloom®",
    "meta_description": "See how Searchbloom grew a Shopify glass smokeware retailer's organic revenue 69.3% at a 679% return, making organic the largest channel in the business.",
@@ -7076,7 +7095,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-08-27T17:30:00+00:00"
   },
@@ -7084,8 +7103,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 193,
-   "bytes": 489435,
+   "ms": 909,
+   "bytes": 489434,
    "x_robots": null,
    "title": "Employment Law Firm Google Ads Case Study - Searchbloom®",
    "meta_description": "See how Searchbloom launched an employment law firm's Google Ads from zero to 885 signed cases across 24 states in year one, at roughly a third of the industry cost per case.",
@@ -7108,7 +7127,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-08-27T17:03:30+00:00"
   },
@@ -7116,8 +7135,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 185,
-   "bytes": 505100,
+   "ms": 699,
+   "bytes": 505101,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study: Beauty Product Shopify Store",
    "meta_description": "How a professional beauty Shopify store more than doubled organic revenue by consolidating a wide, shallow index into page-one visibility. An ecommerce SEO case study.",
@@ -7142,7 +7161,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-08-12T22:22:12+00:00"
   },
@@ -7150,8 +7169,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 238,
-   "bytes": 489650,
+   "ms": 732,
+   "bytes": 489655,
    "x_robots": null,
    "title": "Phone Cases & Device Protection E-Commerce SEO Case Study - Searchbloom®",
    "meta_description": "Searchbloom delivered a 32x return on invested capital for this phone case brand, with organic revenue up 289%. See how in this E-Commerce SEO case study.",
@@ -7161,7 +7180,7 @@
     "Phone Screen Protector and Cases"
    ],
    "h1_count": 1,
-   "words": 1849,
+   "words": 1850,
    "schema_types": [
     "Article",
     "BreadcrumbList",
@@ -7174,7 +7193,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-07-09T19:53:59+00:00"
   },
@@ -7182,8 +7201,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 213,
-   "bytes": 487175,
+   "ms": 708,
+   "bytes": 487177,
    "x_robots": null,
    "title": "Corporate Gifting E-Commerce SEO Case Study - Searchbloom®",
    "meta_description": "Searchbloom drove a 1,000% increase in SERP features and 1,060 new monthly visitors from Google Shopping. See this E-Commerce SEO case study.",
@@ -7206,7 +7225,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-07-09T17:43:07+00:00"
   },
@@ -7214,8 +7233,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 159,
-   "bytes": 486075,
+   "ms": 756,
+   "bytes": 486080,
    "x_robots": null,
    "title": "Kitchen Remodelers Local SEO Case Study - Searchbloom®",
    "meta_description": "Searchbloom returned $4,445 for every $100 invested in SEO, drove a 280% increase in organic traffic, and added 60 marketing qualified leads per month.",
@@ -7225,7 +7244,7 @@
     "Kitchen Bathroom Remodeler Local SEO Case Study"
    ],
    "h1_count": 1,
-   "words": 1425,
+   "words": 1426,
    "schema_types": [
     "Article",
     "BreadcrumbList",
@@ -7238,7 +7257,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-07-09T17:43:05+00:00"
   },
@@ -7246,8 +7265,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 245,
-   "bytes": 483157,
+   "ms": 837,
+   "bytes": 483160,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study: Online Coffee Store - Searchbloom®",
    "meta_description": "Searchbloom's ecommerce SEO strategy helped an artisan coffee brand recover post-pandemic, growing online sales $287K and page-1 keywords by 263% YoY.",
@@ -7270,7 +7289,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-04-23T16:29:15+00:00"
   },
@@ -7278,8 +7297,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 198,
-   "bytes": 232505,
+   "ms": 1058,
+   "bytes": 232511,
    "x_robots": null,
    "title": "Ecommerce PPC Case Study for Wholesale Clothing Store - Searchbloom®",
    "meta_description": "Searchbloom increased Google Ads revenue by 96% while increasing transaction volume 135%! Check out this Ecommerce PPC Study Now!",
@@ -7302,7 +7321,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2026-01-12T22:55:44+00:00"
   },
@@ -7310,8 +7329,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 307,
-   "bytes": 489428,
+   "ms": 920,
+   "bytes": 489426,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study for Apparel Retailer",
    "meta_description": "Searchbloom outranked national brands and increased our partners est. organic traffic by 117.7%. Check out this Ecommerce SEO Case Study Now!",
@@ -7334,7 +7353,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-07-30T15:10:21+00:00"
   },
@@ -7342,8 +7361,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 222,
-   "bytes": 486983,
+   "ms": 992,
+   "bytes": 486985,
    "x_robots": null,
    "title": "Topping the Charts: Ecommerce SEO for Import Furniture Reseller",
    "meta_description": "Learn in this case study how Searchbloom helped a high-grade import furniture reseller earn top search engine rankings for a set of niche branded keywords.",
@@ -7366,7 +7385,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-06-18T22:38:01+00:00"
   },
@@ -7374,8 +7393,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 277,
-   "bytes": 484434,
+   "ms": 893,
+   "bytes": 484439,
    "x_robots": null,
    "title": "ECommerce CRO Case Study: 30% Increase in CVR In One A/B Test!",
    "meta_description": "With this Ecommerce CRO case study, you learn how we increased our partner’s Conversion Rate by 30% in just two weeks!",
@@ -7398,7 +7417,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-04-22T14:55:13+00:00"
   },
@@ -7406,8 +7425,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 209,
-   "bytes": 487583,
+   "ms": 963,
+   "bytes": 487581,
    "x_robots": null,
    "title": "Local SEO Case Study for Firewood Delivery Company",
    "meta_description": "Searchbloom outranked local brands and increased our partners organic traffic by 44%. Check out this Local SEO Case Study Now!",
@@ -7430,7 +7449,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-04-12T16:24:32+00:00"
   },
@@ -7438,8 +7457,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 194,
-   "bytes": 489275,
+   "ms": 960,
+   "bytes": 489277,
    "x_robots": null,
    "title": "Ecommerce SEO Case Study for Tea House - Searchbloom®",
    "meta_description": "Searchbloom helped this partner achieve a 190% increase in keywords ranking in the top 10 and a 26% increase in clicks. See how we did it in this case study.",
@@ -7462,7 +7481,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-02-23T20:22:00+00:00"
   },
@@ -7470,8 +7489,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 202,
-   "bytes": 485826,
+   "ms": 892,
+   "bytes": 485829,
    "x_robots": null,
    "title": "E-Commerce SEO Case Study: 155% Increase in Organic Revenue",
    "meta_description": "With this E-Commerce SEO case study, you learn how Searchbloom increased our partner’s organic revenue by 155% in just one month.",
@@ -7494,7 +7513,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-02-22T21:16:38+00:00"
   },
@@ -7502,8 +7521,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 223,
-   "bytes": 240362,
+   "ms": 1275,
+   "bytes": 240368,
    "x_robots": null,
    "title": "SEO Case Study for Multi-Location Personal Injury Law Firm",
    "meta_description": "See how Searchbloom boosted an Arkansas-based personal injury law firm's organic users by 264% with our effective SEO strategy, focusing on Authority, Relevance, and Technology.",
@@ -7526,7 +7545,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-02-22T00:34:41+00:00"
   },
@@ -7534,8 +7553,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 213,
-   "bytes": 483282,
+   "ms": 1177,
+   "bytes": 483260,
    "x_robots": null,
    "title": "PPC Case Study for PREMIUM SEED COMPANY",
    "meta_description": null,
@@ -7558,7 +7577,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2024-01-16T23:54:48+00:00"
   },
@@ -7566,8 +7585,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 201,
-   "bytes": 486114,
+   "ms": 72,
+   "bytes": 486111,
    "x_robots": null,
    "title": "E-Commerce SEO Case Study: Ranking #1 For Target Keywords",
    "meta_description": "With this E-Commerce SRO case study, you will learn how we achieved the #1 spot in Google for our Partner’s most essential keyword topics",
@@ -7590,7 +7609,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2023-12-04T20:23:17+00:00"
   },
@@ -7598,8 +7617,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 203,
-   "bytes": 490351,
+   "ms": 1337,
+   "bytes": 490352,
    "x_robots": null,
    "title": "Local SEO Case Study for Pediatric Dentist",
    "meta_description": "See how Searchbloom applied local SEO strategies to help a pediatric dentist increase its Google Map views by 365%",
@@ -7622,7 +7641,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2023-11-14T19:18:21+00:00"
   },
@@ -7630,8 +7649,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 195,
-   "bytes": 485563,
+   "ms": 1211,
+   "bytes": 485561,
    "x_robots": null,
    "title": "Multi-Location SEO Case Study for Drug Addiction Rehab - Searchbloom®",
    "meta_description": "Searchbloom outranked national brands and increased our partners #1 rankings by 633%! Check out this Multi-Location SEO Case Study Now!",
@@ -7654,7 +7673,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2022-03-16T18:02:31+00:00"
   },
@@ -7662,8 +7681,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 212,
-   "bytes": 486460,
+   "ms": 1029,
+   "bytes": 486456,
    "x_robots": null,
    "title": "PPC Case Study for Premium Outdoor Gear Store",
    "meta_description": "Searchbloom achieved 161% increase in revenue over a year. Check out this Paid Media Case Study Now!",
@@ -7686,7 +7705,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2022-03-16T17:59:27+00:00"
   },
@@ -7694,8 +7713,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 201,
-   "bytes": 487741,
+   "ms": 1068,
+   "bytes": 487747,
    "x_robots": null,
    "title": "National SEO Case Study for High-Ticket Item - Searchbloom®",
    "meta_description": "Searchbloom outranked national brands and increased our partners #1 rankings by 135%! Check out this National SEO Case Study Now!",
@@ -7718,7 +7737,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "case_studies-sitemap.xml",
    "lastmod": "2022-03-16T17:53:21+00:00"
   },
@@ -7726,8 +7745,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 186,
-   "bytes": 457423,
+   "ms": 1075,
+   "bytes": 457427,
    "x_robots": null,
    "title": "Jordan Rininger - Searchbloom®",
    "meta_description": null,
@@ -7748,7 +7767,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-04-23T13:44:49+00:00"
   },
@@ -7756,8 +7775,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 215,
-   "bytes": 459462,
+   "ms": 1071,
+   "bytes": 459467,
    "x_robots": null,
    "title": "Director of SEO",
    "meta_description": null,
@@ -7778,7 +7797,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-04-23T13:40:17+00:00"
   },
@@ -7786,8 +7805,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 213,
-   "bytes": 460284,
+   "ms": 798,
+   "bytes": 460288,
    "x_robots": null,
    "title": "Jonathan Rogers - Searchbloom®",
    "meta_description": null,
@@ -7808,7 +7827,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-04-09T17:53:11+00:00"
   },
@@ -7816,8 +7835,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 222,
-   "bytes": 456193,
+   "ms": 835,
+   "bytes": 456195,
    "x_robots": null,
    "title": "Ryan Dorn - Chief Operating Officer - Searchbloom®",
    "meta_description": "Ryan Dorn is a highly skilled and experienced technology executive serving as the Chief Operating Officer (COO) of Searchbloom.",
@@ -7827,7 +7846,7 @@
     "Ryan Dorn, Chief Operating Officer"
    ],
    "h1_count": 1,
-   "words": 822,
+   "words": 823,
    "schema_types": [
     "BreadcrumbList",
     "ImageObject",
@@ -7838,7 +7857,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-04-09T17:40:09+00:00"
   },
@@ -7846,8 +7865,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 197,
-   "bytes": 471026,
+   "ms": 804,
+   "bytes": 471027,
    "x_robots": null,
    "title": "Jordan Conner, Vice President - Searchbloom®",
    "meta_description": null,
@@ -7868,7 +7887,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-04-09T16:47:24+00:00"
   },
@@ -7876,8 +7895,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 217,
-   "bytes": 475667,
+   "ms": 814,
+   "bytes": 475669,
    "x_robots": null,
    "title": "Cody C. Jensen CEO & Founder - Searchbloom®",
    "meta_description": null,
@@ -7900,7 +7919,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-04-09T16:38:12+00:00"
   },
@@ -7908,8 +7927,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 215,
-   "bytes": 454464,
+   "ms": 770,
+   "bytes": 454465,
    "x_robots": null,
    "title": "Callie King-Stevens Head of Content & Outreach @ Searchbloom®",
    "meta_description": null,
@@ -7930,19 +7949,42 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "team-sitemap.xml",
    "lastmod": "2026-02-20T15:17:19+00:00"
   },
   "https://www.searchbloom.com/ppc-management/youtube-ads/": {
-   "status": 504,
+   "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 31,
-   "bytes": 6444,
+   "ms": 946,
+   "bytes": 257347,
    "x_robots": null,
-   "first_try": 504,
-   "cache": null,
+   "title": "YouTube Advertising Agency and Services | Searchbloom",
+   "meta_description": "Searchbloom manages YouTube ads inside your Google Ads account: Demand Gen, video reach, and Shorts campaigns measured in leads and sales, not views.",
+   "canonical": "https://www.searchbloom.com/ppc-management/youtube-ads/",
+   "robots_meta": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": [
+    "YOUTUBE ADVERTISING SERVICES"
+   ],
+   "h1_count": 1,
+   "words": 2049,
+   "schema_types": [
+    "AggregateRating",
+    "Article",
+    "BreadcrumbList",
+    "ImageObject",
+    "ListItem",
+    "Organization",
+    "Person",
+    "Place",
+    "PostalAddress",
+    "Product",
+    "WebPage",
+    "WebSite"
+   ],
+   "hreflang": 0,
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-11-02T21:33:46+00:00"
   },
@@ -7950,8 +7992,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 131,
-   "bytes": 293239,
+   "ms": 49,
+   "bytes": 293240,
    "x_robots": null,
    "title": "Ecommerce SEO Services - Award-Winning Ecommerce SEO Company",
    "meta_description": "Drive more revenue with our expert Ecommerce SEO Services. We're an Award-Winning Ecommerce SEO agency that helps Ecommerce brands grow organically!",
@@ -7977,7 +8019,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-09-04T00:49:16+00:00"
   },
@@ -7985,8 +8027,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 225,
-   "bytes": 297611,
+   "ms": 43,
+   "bytes": 297613,
    "x_robots": null,
    "title": "Generative Engine Optimization (GEO) Services | Searchbloom",
    "meta_description": "Searchbloom's generative engine optimization services get your brand recommended across ChatGPT, Perplexity, Gemini, and AI Overviews. Research-backed, measured GEO.",
@@ -8014,7 +8056,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-06-26T18:39:02+00:00"
   },
@@ -8022,8 +8064,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 192,
-   "bytes": 297945,
+   "ms": 1209,
+   "bytes": 297948,
    "x_robots": null,
    "title": "Answer Engine Optimization (AEO) Services | Searchbloom",
    "meta_description": "Searchbloom's answer engine optimization services get your brand cited across AI answers, featured snippets, and voice search. Measured AI visibility, done right.",
@@ -8051,7 +8093,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-06-26T18:38:40+00:00"
   },
@@ -8059,8 +8101,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 231,
-   "bytes": 275606,
+   "ms": 1111,
+   "bytes": 275602,
    "x_robots": null,
    "title": "Woocommerce SEO Services | Searchbloom",
    "meta_description": "Unlock your online store's potential with our Woocommerce SEO services. Start boosting your traffic and sales today by working with us as your Woocommerce SEO company!",
@@ -8070,7 +8112,7 @@
     "WOOCOMMERCE SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 3764,
+   "words": 3763,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8086,7 +8128,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:20+00:00"
   },
@@ -8094,8 +8136,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 185,
-   "bytes": 290621,
+   "ms": 1189,
+   "bytes": 290628,
    "x_robots": null,
    "title": "Website Development Services – Award-Winning Web Development Company",
    "meta_description": "Professional Website Development Can Deliver the Highest ROI of Any Digital Investment. Stop Limiting Your Growth! Build a Site That Converts. Contact Us Today!",
@@ -8121,7 +8163,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:19+00:00"
   },
@@ -8129,8 +8171,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 173,
-   "bytes": 595981,
+   "ms": 1284,
+   "bytes": 595987,
    "x_robots": null,
    "title": "Utah SEO Services By Utahns For Utahns",
    "meta_description": "Searchbloom is a Utah SEO company. No magic beans or pyramid schemes - we’re a local award-winning SEO agency providing national, e-commerce, and local SEO services.",
@@ -8156,7 +8198,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:18+00:00"
   },
@@ -8164,8 +8206,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 198,
-   "bytes": 270527,
+   "ms": 64,
+   "bytes": 270536,
    "x_robots": null,
    "title": "Shopify SEO Services | Searchbloom®",
    "meta_description": "Get more from your eCommerce shop through expert Shopify SEO services at Searchbloom. We’ll help you optimize your online store for high conversions and sales!",
@@ -8191,7 +8233,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:17+00:00"
   },
@@ -8199,8 +8241,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 184,
-   "bytes": 280061,
+   "ms": 1235,
+   "bytes": 280064,
    "x_robots": null,
    "title": "Technical SEO Agency Services | Searchbloom®",
    "meta_description": "Exceed your competitors with technical SEO services from Searchbloom. Our experts will help optimize your site for top performance and search engine rankings.",
@@ -8210,7 +8252,7 @@
     "TECHNICAL SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 3421,
+   "words": 3420,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8226,7 +8268,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:17+00:00"
   },
@@ -8234,8 +8276,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 195,
-   "bytes": 270009,
+   "ms": 1232,
+   "bytes": 270014,
    "x_robots": null,
    "title": "Franchise SEO Services & Franchise Marketing",
    "meta_description": "Keep your brand consistent across multiple locations and digital platforms with franchise SEO designed to increase demand generation.",
@@ -8261,7 +8303,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:16+00:00"
   },
@@ -8269,8 +8311,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 197,
-   "bytes": 296201,
+   "ms": 1302,
+   "bytes": 296204,
    "x_robots": null,
    "title": "Enterprise SEO Services - Award-Winning Enterprise SEO Company",
    "meta_description": "Does your growing company need custom enterprise SEO services? Look no further. Searchbloom, a top enterprise SEO agency, will expand your digital reach.",
@@ -8280,7 +8322,7 @@
     "ENTERPRISE SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 5194,
+   "words": 5195,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8296,7 +8338,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:15+00:00"
   },
@@ -8304,7 +8346,7 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 221,
+   "ms": 1082,
    "bytes": 550832,
    "x_robots": null,
    "title": "Search Engine Optimization Services Recognized by Backlinko",
@@ -8315,7 +8357,7 @@
     "SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 4451,
+   "words": 4450,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8331,7 +8373,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:14+00:00"
   },
@@ -8339,8 +8381,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 198,
-   "bytes": 534514,
+   "ms": 1027,
+   "bytes": 534515,
    "x_robots": null,
    "title": "SEO for Electricians by Top Rated SEO Firm Searchbloom®",
    "meta_description": "Looking to grow your business with professional SEO for electricians? Work with Searchbloom. We offer tailored electrician SEO services. Learn more today!",
@@ -8366,7 +8408,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:14+00:00"
   },
@@ -8374,8 +8416,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 195,
-   "bytes": 295611,
+   "ms": 1251,
+   "bytes": 295617,
    "x_robots": null,
    "title": "SEO Consulting Services | Searchbloom",
    "meta_description": "Elevate your online presence with Searchbloom's SEO consulting services. Boost visibility, attract organic traffic, and achieve remarkable results. Contact us today for a free marketing plan!",
@@ -8401,7 +8443,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:13+00:00"
   },
@@ -8409,8 +8451,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 196,
-   "bytes": 278219,
+   "ms": 1157,
+   "bytes": 278225,
    "x_robots": null,
    "title": "Google Shopping Management Services | Searchbloom",
    "meta_description": "Discover game-changing Google Shopping management services that will revolutionize your approach to creating engaging & captivating Google Shopping campaigns.",
@@ -8436,7 +8478,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:12+00:00"
   },
@@ -8444,8 +8486,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 194,
-   "bytes": 533499,
+   "ms": 908,
+   "bytes": 533498,
    "x_robots": null,
    "title": "Bing Ads Management Services | Searchbloom",
    "meta_description": "Unlock the potential of Bing Ads management with Searchbloom’s expert services. Drive targeted traffic, boost conversions, and maximize ROI.",
@@ -8471,7 +8513,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:11+00:00"
   },
@@ -8479,8 +8521,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 178,
-   "bytes": 270183,
+   "ms": 957,
+   "bytes": 270184,
    "x_robots": null,
    "title": "Google Ads Management Agency - Searchbloom®",
    "meta_description": "For effective Google ads management, work with Searchbloom, a top-notch Google ads management agency. We’ll help you make huge conversions & higher ROIs. Learn more here!",
@@ -8506,7 +8548,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:11+00:00"
   },
@@ -8514,8 +8556,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 161,
-   "bytes": 313126,
+   "ms": 262,
+   "bytes": 313123,
    "x_robots": null,
    "title": "PPC Management Services by Searchbloom | PPC Agency",
    "meta_description": "Searchbloom's PPC management services turn ad spend into revenue across Google Ads, Microsoft Advertising, and Performance Max. Get a free PPC plan.",
@@ -8525,7 +8567,7 @@
     "PPC MANAGEMENT SERVICES"
    ],
    "h1_count": 1,
-   "words": 4515,
+   "words": 4516,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8549,8 +8591,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 196,
-   "bytes": 294126,
+   "ms": 1101,
+   "bytes": 294128,
    "x_robots": null,
    "title": "National SEO Services - Award-Winning National SEO Company",
    "meta_description": "National SEO Services Can Have The Highest ROI of Any Marketing Campaign. Stop Limiting Your Revenue! Get Results You Can Count On. Contact us Now!",
@@ -8576,7 +8618,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:09+00:00"
   },
@@ -8584,8 +8626,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 199,
-   "bytes": 282663,
+   "ms": 1216,
+   "bytes": 282667,
    "x_robots": null,
    "title": "SEO Services in Boca Raton | Searchbloom",
    "meta_description": "Boost your business’s online presence with leading SEO in Boca Raton, Florida, from Searchbloom. Work with a trusted Boca Raton SEO agency for top-rank results.",
@@ -8595,7 +8637,7 @@
     "BOCA RATON SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 3429,
+   "words": 3430,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8611,7 +8653,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:08+00:00"
   },
@@ -8619,8 +8661,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 178,
-   "bytes": 533229,
+   "ms": 947,
+   "bytes": 533233,
    "x_robots": null,
    "title": "SEO for Plastic Surgeons | Searchbloom®",
    "meta_description": "Looking for professional local SEO for plastic surgeons? Work with Searchbloom’s experts in SEO for plastic surgeons. Start growing your online presence today!",
@@ -8646,7 +8688,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:07+00:00"
   },
@@ -8654,8 +8696,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 212,
-   "bytes": 277977,
+   "ms": 1028,
+   "bytes": 277975,
    "x_robots": null,
    "title": "Local SEO Services for Dentist Practices",
    "meta_description": "Find expert services in website SEO for dentist practices at Searchbloom. Our seasoned search engine experts will raise your dental website to successful heights!",
@@ -8681,7 +8723,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:07+00:00"
   },
@@ -8689,8 +8731,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 236,
-   "bytes": 533163,
+   "ms": 799,
+   "bytes": 533168,
    "x_robots": null,
    "title": "Local SEO for Roofers",
    "meta_description": "Boost your roofing business with effective SEO for roofers. Learn how to improve your online visibility and attract more customers. Click here to get started!",
@@ -8716,7 +8758,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:06+00:00"
   },
@@ -8724,8 +8766,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 134,
-   "bytes": 303284,
+   "ms": 43,
+   "bytes": 303292,
    "x_robots": null,
    "title": "Local SEO Services - Award-Winning Local SEO Company | Searchbloom®",
    "meta_description": "Drive more revenue with our expert Local SEO Services. Dominate your local searches and become the most visible local business!",
@@ -8735,7 +8777,7 @@
     "LOCAL SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 4476,
+   "words": 4475,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8751,7 +8793,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:05+00:00"
   },
@@ -8759,8 +8801,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 220,
-   "bytes": 286161,
+   "ms": 897,
+   "bytes": 286166,
    "x_robots": null,
    "title": "Digital PR Services",
    "meta_description": "Unlock the power of online visibility with Digital PR Services. Dive in to discover strategies that elevate your brand's reputation and reach!",
@@ -8786,7 +8828,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:05+00:00"
   },
@@ -8794,8 +8836,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 175,
-   "bytes": 291863,
+   "ms": 977,
+   "bytes": 291858,
    "x_robots": null,
    "title": "Link Building Services | Searchbloom",
    "meta_description": "Discover SEO success with Searchbloom's link-building services. Climb the SERPs and reach your audience effectively!",
@@ -8805,7 +8847,7 @@
     "LINK BUILDING SERVICES"
    ],
    "h1_count": 1,
-   "words": 4794,
+   "words": 4793,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8821,7 +8863,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:04+00:00"
   },
@@ -8829,8 +8871,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 200,
-   "bytes": 545401,
+   "ms": 776,
+   "bytes": 545396,
    "x_robots": null,
    "title": "Professional SEO Services for Lawyers",
    "meta_description": "Boost your online presence and outsmart the competition with Searchbloom's SEO services for lawyers. Your law firm deserves to bloom!",
@@ -8856,7 +8898,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:03+00:00"
   },
@@ -8864,8 +8906,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 186,
-   "bytes": 529975,
+   "ms": 738,
+   "bytes": 529969,
    "x_robots": null,
    "title": "International SEO Services | Searchbloom®",
    "meta_description": "Get top-notch international SEO services from Searchbloom. We offer tailored SEO for those looking to rank high in global search engines. Get a free consultation today!",
@@ -8875,7 +8917,7 @@
     "INTERNATIONAL SEO SERVICES"
    ],
    "h1_count": 1,
-   "words": 2829,
+   "words": 2828,
    "schema_types": [
     "AggregateRating",
     "Article",
@@ -8891,7 +8933,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:02+00:00"
   },
@@ -8899,8 +8941,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 236,
-   "bytes": 530448,
+   "ms": 817,
+   "bytes": 530452,
    "x_robots": null,
    "title": "Hotel SEO Services",
    "meta_description": "Boost your hotel's online visibility and drive bookings with our expert hotel SEO services tailored for the hospitality industry. Click to learn more!",
@@ -8926,7 +8968,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:01+00:00"
   },
@@ -8934,8 +8976,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 207,
-   "bytes": 543691,
+   "ms": 831,
+   "bytes": 543693,
    "x_robots": null,
    "title": "HVAC SEO Services | Best SEO Services for Contractors",
    "meta_description": "Searchbloom provides high-end HVAC SEO Services. We build ROI-driven SEO strategies to help you achieve your business goals. Request a quote today!",
@@ -8961,7 +9003,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:01+00:00"
   },
@@ -8969,8 +9011,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 167,
-   "bytes": 283109,
+   "ms": 897,
+   "bytes": 283112,
    "x_robots": null,
    "title": "Google Business Profile Optimization Services | Searchbloom",
    "meta_description": "Boost your online presence with our Google Business Profile Optimization Services. Discover how to rank higher and attract more customers today!",
@@ -8996,7 +9038,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:42:00+00:00"
   },
@@ -9004,8 +9046,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 173,
-   "bytes": 304064,
+   "ms": 984,
+   "bytes": 304076,
    "x_robots": null,
    "title": "Conversion Rate Optimization Services by Top Rated Digital Marketing Agency",
    "meta_description": "Searchbloom® Helps Brands Drive Revenue! Conversion Rate Optimization Can Have The Highest ROI of Any Marketing Initiative. Stop Limiting Revenue! Contact Us Now!",
@@ -9031,7 +9073,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:41:58+00:00"
   },
@@ -9039,8 +9081,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 178,
-   "bytes": 254063,
+   "ms": 808,
+   "bytes": 254064,
    "x_robots": null,
    "title": "Google Analytics Services",
    "meta_description": "Need help setting up conversions in GA4? Work with Searchbloom today. We offer custom Google Analytics 4 optimization services. Start growing your business today!",
@@ -9066,7 +9108,7 @@
     "WebSite"
    ],
    "hreflang": 0,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "sb_services-sitemap.xml",
    "lastmod": "2026-05-16T15:41:57+00:00"
   },
@@ -9074,8 +9116,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 82,
-   "bytes": 302650,
+   "ms": 75,
+   "bytes": 302648,
    "x_robots": null,
    "title": "AI Visibility Checker | Does AI Name Your Brand?",
    "meta_description": "Free AI visibility checker: ask ChatGPT, Google AI Mode and Gemini real buyer questions and see whether they name your brand and cite your site.",
@@ -9107,8 +9149,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 208,
-   "bytes": 551226,
+   "ms": 100,
+   "bytes": 551227,
    "x_robots": null,
    "title": "Agent Readiness Checker: Free AI Crawler and Agent Test",
    "meta_description": "Free agent readiness checker. See if GPTBot, ClaudeBot, PerplexityBot and 29 more AI crawlers can reach your site, and test it on 23 agent standards.",
@@ -9140,8 +9182,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 96,
-   "bytes": 287459,
+   "ms": 74,
+   "bytes": 287454,
    "x_robots": null,
    "title": "Knowledge Panel & Knowledge Graph Checker | Free Entity SEO Tool",
    "meta_description": "Free tool to see your brand's Google Knowledge Graph entity and knowledge panel, map its connections, and get a checklist to strengthen it for SEO and AI search.",
@@ -9173,8 +9215,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 197,
-   "bytes": 408796,
+   "ms": 80,
+   "bytes": 408797,
    "x_robots": null,
    "title": "Schema Markup Generator JSON-LD & Microdata - Searchbloom®",
    "meta_description": "A FREE and easy to use schema markup generator supporting the creation of JSON-LD schema and microdata. Use for products, FAQ, local business & more!",
@@ -9206,8 +9248,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 54,
-   "bytes": 222639,
+   "ms": 98,
+   "bytes": 222635,
    "x_robots": null,
    "title": "Google SERP Snippet Optimization Tool - Searchbloom®",
    "meta_description": "Our Snippet Optimization tool replicates the appearance of Google SERPs, which allows SEOs to optimize a page title and description for maximum click-through rate.",
@@ -9239,7 +9281,7 @@
    "final_url": null,
    "redirects": 0,
    "ms": 81,
-   "bytes": 234202,
+   "bytes": 234207,
    "x_robots": null,
    "title": "Free Keyword Match Type Wrapper for Google Ads - Searchbloom®",
    "meta_description": "Wrap a list of keywords into broad, phrase, and exact match types and add them to your Google Ads ad groups in bulk. Free to use.",
@@ -9249,7 +9291,7 @@
     "Keyword Match Type Wrapper Tool"
    ],
    "h1_count": 1,
-   "words": 1647,
+   "words": 1648,
    "schema_types": [
     "BreadcrumbList",
     "HowTo",
@@ -9270,8 +9312,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 58,
-   "bytes": 221805,
+   "ms": 54,
+   "bytes": 221811,
    "x_robots": null,
    "title": "Keyword Mixer Tool - Combine words for SEO & PPC - Searchbloom®",
    "meta_description": "Tired of creating repetitive combinations of keywords? Use the Keyword Mixer tool to combine sets of words automatically. For PPC, and marketers, etc.",
@@ -9302,8 +9344,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 57,
-   "bytes": 477139,
+   "ms": 91,
+   "bytes": 477136,
    "x_robots": null,
    "title": "Google Analytics Campaign URL Builder - Searchbloom®",
    "meta_description": "Our Google Analytics Campaign URL Builder allows you to easily add campaign parameters to URLs so you can track Custom Campaigns in Google Analytics.",
@@ -9334,8 +9376,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 55,
-   "bytes": 229490,
+   "ms": 62,
+   "bytes": 229494,
    "x_robots": null,
    "title": "Website Word Counter Tool - Accurate & Free",
    "meta_description": "Check any website's word count quickly and accurately with SearchBloom's free bulk web page Word Counter Tool. Enter the URLs you want to check today!",
@@ -9367,8 +9409,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 93,
-   "bytes": 243297,
+   "ms": 71,
+   "bytes": 243293,
    "x_robots": null,
    "title": "Anchor Text Generator Tool - Searchbloom®",
    "meta_description": "Building relevant backlinks is critical for SEO success. Use our free anchor text generator tool to build an anchor profile that is natural to your niche.",
@@ -9378,7 +9420,7 @@
     "Anchor Text Generator Tool"
    ],
    "h1_count": 1,
-   "words": 1871,
+   "words": 1870,
    "schema_types": [
     "BreadcrumbList",
     "HowTo",
@@ -9400,8 +9442,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 79,
-   "bytes": 164826,
+   "ms": 64,
+   "bytes": 164824,
    "x_robots": null,
    "title": "Google Local SERP Checker - View Localized Search Results",
    "meta_description": "Use this FREE local SERP checker tool to view localized Google search results as they would appear in a specific city, zip, or region! Try it for free today!",
@@ -9433,8 +9475,8 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 97,
-   "bytes": 228484,
+   "ms": 70,
+   "bytes": 228479,
    "x_robots": null,
    "title": "Conversion Rate ROI Calculator - Searchbloom®",
    "meta_description": "Use the Searchbloom conversion rate ROI calculator for free to see if conversion rate optimization services make sense for you.",
@@ -9444,7 +9486,7 @@
     "Conversion Rate ROI Calculator"
    ],
    "h1_count": 1,
-   "words": 1713,
+   "words": 1712,
    "schema_types": [
     "BreadcrumbList",
     "HowTo",
@@ -9465,16 +9507,16 @@
    "status": 200,
    "final_url": null,
    "redirects": 0,
-   "ms": 170,
+   "ms": 308,
    "bytes": 961,
    "x_robots": null,
-   "cache": "HIT: 1",
+   "cache": "MISS",
    "sitemap": "local-sitemap.xml",
    "lastmod": "2025-12-23T13:14:43+00:00"
   }
  },
  "links": {
-  "internal_links_found": 534,
+  "internal_links_found": 535,
   "checked_outside_sitemap": {
    "https://privacy.searchbloom.com": {
     "status": 200,
@@ -9587,6 +9629,10 @@
    "https://www.searchbloom.com/blog/cro/": {
     "status": 200,
     "found_on": "https://www.searchbloom.com/blog/38-conversion-rate-optimization-recommendations-tips-to-test-searchbloom/"
+   },
+   "https://www.searchbloom.com/blog/branding/": {
+    "status": 200,
+    "found_on": "https://www.searchbloom.com/blog/best-personal-branding-websites-for-ceos/"
    },
    "https://www.searchbloom.com/blog/aeo/": {
     "status": 200,
@@ -10484,10 +10530,10 @@
  },
  "psi": {
   "https://www.searchbloom.com/": {
-   "score": 74,
-   "lcp_ms": 2898,
+   "score": 81,
+   "lcp_ms": 4501,
    "cls": 0,
-   "tbt_ms": 504,
+   "tbt_ms": 91,
    "field": {
     "overall": "AVERAGE",
     "lcp_ms": 2443,
@@ -10499,60 +10545,130 @@
     "lcp_ms": 2257,
     "inp_ms": 264,
     "cls": 0.0
-   }
+   },
+   "runs": [
+    {
+     "score": 80,
+     "lcp_ms": 2849
+    },
+    {
+     "score": 81,
+     "lcp_ms": 4501
+    },
+    {
+     "score": 83,
+     "lcp_ms": 2553
+    }
+   ]
   },
   "https://www.searchbloom.com/generative-engine-optimization/": {
-   "score": 81,
-   "lcp_ms": 2808,
-   "cls": 0,
-   "tbt_ms": 294,
-   "field": null,
-   "origin_field": {
-    "overall": "AVERAGE",
-    "lcp_ms": 2257,
-    "inp_ms": 264,
-    "cls": 0.0
-   }
-  },
-  "https://www.searchbloom.com/answer-engine-optimization/": {
-   "score": 81,
-   "lcp_ms": 2806,
-   "cls": 0,
-   "tbt_ms": 297,
-   "field": null,
-   "origin_field": {
-    "overall": "AVERAGE",
-    "lcp_ms": 2257,
-    "inp_ms": 264,
-    "cls": 0.0
-   }
-  },
-  "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/": {
-   "score": 58,
-   "lcp_ms": 10740,
-   "cls": 0,
-   "tbt_ms": 374,
-   "field": null,
-   "origin_field": {
-    "overall": "AVERAGE",
-    "lcp_ms": 2257,
-    "inp_ms": 264,
-    "cls": 0.0
-   }
-  },
-  "https://www.searchbloom.com/ecommerce-seo/": {
-   "score": 80,
+   "score": 76,
    "lcp_ms": 4276,
    "cls": 0,
-   "tbt_ms": 75,
+   "tbt_ms": 252,
    "field": null,
    "origin_field": {
     "overall": "AVERAGE",
     "lcp_ms": 2257,
     "inp_ms": 264,
     "cls": 0.0
-   }
+   },
+   "runs": [
+    {
+     "score": 78,
+     "lcp_ms": 2837
+    },
+    {
+     "score": 76,
+     "lcp_ms": 4276
+    },
+    {
+     "score": 63,
+     "lcp_ms": 5811
+    }
+   ]
+  },
+  "https://www.searchbloom.com/answer-engine-optimization/": {
+   "score": 72,
+   "lcp_ms": 4876,
+   "cls": 0.01,
+   "tbt_ms": 260,
+   "field": null,
+   "origin_field": {
+    "overall": "AVERAGE",
+    "lcp_ms": 2257,
+    "inp_ms": 264,
+    "cls": 0.0
+   },
+   "runs": [
+    {
+     "score": 72,
+     "lcp_ms": 4876
+    },
+    {
+     "score": 77,
+     "lcp_ms": 4276
+    },
+    {
+     "score": 63,
+     "lcp_ms": 5829
+    }
+   ]
+  },
+  "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/": {
+   "score": 61,
+   "lcp_ms": 10426,
+   "cls": 0,
+   "tbt_ms": 307,
+   "field": null,
+   "origin_field": {
+    "overall": "AVERAGE",
+    "lcp_ms": 2257,
+    "inp_ms": 264,
+    "cls": 0.0
+   },
+   "runs": [
+    {
+     "score": 69,
+     "lcp_ms": 10169
+    },
+    {
+     "score": 61,
+     "lcp_ms": 10426
+    },
+    {
+     "score": 52,
+     "lcp_ms": 10451
+    }
+   ]
+  },
+  "https://www.searchbloom.com/ecommerce-seo/": {
+   "score": 79,
+   "lcp_ms": 2590,
+   "cls": 0,
+   "tbt_ms": 419,
+   "field": null,
+   "origin_field": {
+    "overall": "AVERAGE",
+    "lcp_ms": 2257,
+    "inp_ms": 264,
+    "cls": 0.0
+   },
+   "runs": [
+    {
+     "score": 75,
+     "lcp_ms": 4876
+    },
+    {
+     "score": 81,
+     "lcp_ms": 4201
+    },
+    {
+     "score": 79,
+     "lcp_ms": 2590
+    }
+   ]
   }
  },
- "duration_s": 123
+ "duration_s": 109
 }
