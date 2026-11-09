@@ -14,7 +14,7 @@
    "toolset-sitemap.xml": 12,
    "local-sitemap.xml": 1
   },
-  "median_response_ms": 832,
+  "median_response_ms": 885,
   "internal_links_found": 535,
   "crawler_access": {
    "Googlebot": true,
@@ -30,10 +30,10 @@
   },
   "psi": {
    "https://www.searchbloom.com/": {
-    "score": 81,
-    "lcp_ms": 4501,
+    "score": 79,
+    "lcp_ms": 4426,
     "cls": 0,
-    "tbt_ms": 91,
+    "tbt_ms": 176,
     "field": {
      "overall": "AVERAGE",
      "lcp_ms": 2443,
@@ -42,31 +42,31 @@
     }
    },
    "https://www.searchbloom.com/generative-engine-optimization/": {
-    "score": 76,
+    "score": 80,
     "lcp_ms": 4276,
     "cls": 0,
-    "tbt_ms": 252,
+    "tbt_ms": 122,
     "field": null
    },
    "https://www.searchbloom.com/answer-engine-optimization/": {
-    "score": 72,
-    "lcp_ms": 4876,
-    "cls": 0.01,
-    "tbt_ms": 260,
+    "score": 81,
+    "lcp_ms": 2820,
+    "cls": 0,
+    "tbt_ms": 275,
     "field": null
    },
    "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/": {
-    "score": 61,
-    "lcp_ms": 10426,
+    "score": 63,
+    "lcp_ms": 10820,
     "cls": 0,
-    "tbt_ms": 307,
+    "tbt_ms": 217,
     "field": null
    },
    "https://www.searchbloom.com/ecommerce-seo/": {
-    "score": 79,
-    "lcp_ms": 2590,
+    "score": 62,
+    "lcp_ms": 4156,
     "cls": 0,
-    "tbt_ms": 419,
+    "tbt_ms": 657,
     "field": null
    }
   },
@@ -115,20 +115,20 @@
    "status": "ongoing"
   },
   {
-   "id": "cwv|https://www.searchbloom.com/answer-engine-optimization/",
+   "id": "cwv|https://www.searchbloom.com/ecommerce-seo/",
    "severity": "medium",
    "kind": "performance",
    "title": "Page speed needs work",
-   "detail": "lab LCP 4876 ms (no real-user data for this page).",
+   "detail": "lab LCP 4156 ms (no real-user data for this page).",
    "count": 1,
    "urls": [
-    "https://www.searchbloom.com/answer-engine-optimization/"
+    "https://www.searchbloom.com/ecommerce-seo/"
    ],
    "data": {
-    "score": 72,
-    "lcp_ms": 4876,
-    "cls": 0.01,
-    "tbt_ms": 260,
+    "score": 62,
+    "lcp_ms": 4156,
+    "cls": 0,
+    "tbt_ms": 657,
     "field": null,
     "origin_field": {
      "overall": "AVERAGE",
@@ -138,16 +138,16 @@
     },
     "runs": [
      {
-      "score": 72,
-      "lcp_ms": 4876
+      "score": 61,
+      "lcp_ms": 6209
      },
      {
-      "score": 77,
+      "score": 62,
+      "lcp_ms": 4156
+     },
+     {
+      "score": 82,
       "lcp_ms": 4276
-     },
-     {
-      "score": 63,
-      "lcp_ms": 5829
      }
     ]
    },
@@ -203,10 +203,10 @@
     "https://www.searchbloom.com/"
    ],
    "data": {
-    "score": 81,
-    "lcp_ms": 4501,
+    "score": 79,
+    "lcp_ms": 4426,
     "cls": 0,
-    "tbt_ms": 91,
+    "tbt_ms": 176,
     "field": {
      "overall": "AVERAGE",
      "lcp_ms": 2443,
@@ -221,16 +221,16 @@
     },
     "runs": [
      {
-      "score": 80,
-      "lcp_ms": 2849
+      "score": 74,
+      "lcp_ms": 3741
      },
      {
       "score": 81,
-      "lcp_ms": 4501
+      "lcp_ms": 4426
      },
      {
-      "score": 83,
-      "lcp_ms": 2553
+      "score": 79,
+      "lcp_ms": 4426
      }
     ]
    },
@@ -247,10 +247,10 @@
     "https://www.searchbloom.com/generative-engine-optimization/"
    ],
    "data": {
-    "score": 76,
+    "score": 80,
     "lcp_ms": 4276,
     "cls": 0,
-    "tbt_ms": 252,
+    "tbt_ms": 122,
     "field": null,
     "origin_field": {
      "overall": "AVERAGE",
@@ -260,16 +260,16 @@
     },
     "runs": [
      {
-      "score": 78,
-      "lcp_ms": 2837
+      "score": 84,
+      "lcp_ms": 2800
      },
      {
-      "score": 76,
+      "score": 80,
       "lcp_ms": 4276
      },
      {
-      "score": 63,
-      "lcp_ms": 5811
+      "score": 67,
+      "lcp_ms": 10949
      }
     ]
    },
@@ -280,16 +280,16 @@
    "severity": "medium",
    "kind": "performance",
    "title": "Page speed needs work",
-   "detail": "lab LCP 10426 ms (no real-user data for this page).",
+   "detail": "lab LCP 10820 ms (no real-user data for this page).",
    "count": 1,
    "urls": [
     "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/"
    ],
    "data": {
-    "score": 61,
-    "lcp_ms": 10426,
+    "score": 63,
+    "lcp_ms": 10820,
     "cls": 0,
-    "tbt_ms": 307,
+    "tbt_ms": 217,
     "field": null,
     "origin_field": {
      "overall": "AVERAGE",
@@ -299,16 +299,16 @@
     },
     "runs": [
      {
-      "score": 69,
-      "lcp_ms": 10169
+      "score": 63,
+      "lcp_ms": 10820
      },
      {
-      "score": 61,
-      "lcp_ms": 10426
+      "score": 82,
+      "lcp_ms": 3698
      },
      {
       "score": 52,
-      "lcp_ms": 10451
+      "lcp_ms": 10458
      }
     ]
    },
@@ -393,56 +393,59 @@
  "first_run": false,
  "review": {
   "status": "amber",
-  "headline": "All 283 sitemap pages load, but three dead internal links and slow interaction and load times on a few pages need attention.",
+  "headline": "The site is up, with all 283 sitemap pages returning OK, but three internal links return 404 and real-user INP needs improvement.",
   "priorities": [
    {
-    "title": "Three internal links point to 404 pages",
+    "title": "Broken internal links",
     "severity": "high",
     "is_new": false,
-    "why": "Visitors and crawlers hit dead ends, and internal links into missing pages waste crawl paths and pass no value.",
-    "action": "Fix the links on the three source pages or redirect the dead URLs; the content or dev team owns this.",
+    "why": "Three internal links point to 404 pages, creating dead ends for visitors and crawlers from live blog posts.",
+    "action": "Content editors should fix the links on the three source pages, or developers should redirect the dead URLs to the right replacements.",
     "urls": [
      "https://www.searchbloom.com/blog/3-easy-tips-to-creating-content-people-will-share/",
      "https://www.searchbloom.com/blog/4-old-school-seo-tactics-to-stop-now/",
-     "https://www.searchbloom.com/blog/landing-pages-for-events/"
+     "https://www.searchbloom.com/blog/landing-pages-for-events/",
+     "https://www.searchbloom.com/blog/brand-building-through-storytelling/",
+     "https://www.searchbloom.com/blog/seo-is-dead/",
+     "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
     ]
    },
    {
-    "title": "Answer-engine-optimization page measured slower in lab tests",
+    "title": "Ecommerce SEO page slow in lab tests",
     "severity": "medium",
     "is_new": true,
-    "why": "Lab LCP median was 4876 ms, with runs from 4276 to 5829 ms, and this page has no real-user data to confirm the experience.",
-    "action": "Developer should review the largest above-the-fold assets; re-check over the next few days before treating it as a trend.",
+    "why": "The median lab LCP is 4156 ms with a score of 62, and this page has no real-user data, so visitor experience there is unmeasured.",
+    "action": "A developer should check the LCP element and hero image on this page and retest; site-wide real-user LCP is 2257 ms, which is good.",
     "urls": [
-     "https://www.searchbloom.com/answer-engine-optimization/"
+     "https://www.searchbloom.com/ecommerce-seo/"
+    ]
+   },
+   {
+    "title": "Strategy page has the slowest lab LCP",
+    "severity": "medium",
+    "is_new": false,
+    "why": "The median lab LCP is 10820 ms, and runs ranged from 3698 to 10820 ms, the slowest lab result on the site, with no real-user data.",
+    "action": "A developer should inspect the largest element and resource loading on this page, then retest with several runs before deciding on changes.",
+    "urls": [
+     "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/"
     ]
    },
    {
     "title": "Site-wide INP needs improvement",
     "severity": "medium",
     "is_new": false,
-    "why": "Real users see INP of 264 ms, above the 200 ms good threshold, and the homepage field INP is 237 ms.",
-    "action": "Developer should profile slow interactions on the homepage and main templates to reduce input delay.",
+    "why": "Real-user INP is 264 ms across the site, above the 200 ms good threshold, and the homepage field INP is 237 ms.",
+    "action": "A developer should reduce main-thread JavaScript work on the homepage and main templates, then track field INP in upcoming crawls.",
     "urls": [
      "https://www.searchbloom.com/"
     ]
    },
    {
-    "title": "Best AI SEO agencies page has very slow lab LCP",
+    "title": "Pages missing meta descriptions or H1",
     "severity": "medium",
     "is_new": false,
-    "why": "Lab LCP was 10169 to 10451 ms across three runs with a score of 61, the slowest page in this check.",
-    "action": "Developer should audit the hero image and render-blocking scripts on this page first.",
-    "urls": [
-     "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/"
-    ]
-   },
-   {
-    "title": "Missing meta descriptions on 8 pages and H1s on 7 pages",
-    "severity": "medium",
-    "is_new": false,
-    "why": "Pages without a meta description or H1 give search engines and AI systems weaker summaries of what the page covers.",
-    "action": "SEO or content team should add descriptions and H1s to these pages, starting with the team bios and sitemap page.",
+    "why": "Eight pages lack meta descriptions and seven lack an H1, which weakens how these pages are summarized and understood by search and AI systems.",
+    "action": "A content editor should add unique meta descriptions and one H1 per page, starting with the team bio pages and the hub pages.",
     "urls": [
      "https://www.searchbloom.com/sitemap/",
      "https://www.searchbloom.com/case-studies/ads/ecommerce-seed-store/",
@@ -461,16 +464,16 @@
     ]
    }
   ],
-  "changes": "One new item today: the answer-engine-optimization page was flagged for slow lab LCP. Nothing was resolved since yesterday, and the other findings carry over as ongoing.",
+  "changes": "One new item today: lab speed on /ecommerce-seo/ (median LCP 4156 ms, score 62) was flagged as medium. Nothing was resolved since yesterday, and the other findings are unchanged ongoing items.",
   "healthy": [
-   "All 283 sitemap pages returned OK, with a median response time of 832 ms.",
-   "Site-wide real-user LCP is 2257 ms and CLS is 0, both rated good.",
-   "robots.txt allows all ten crawlers checked, including Googlebot, Bingbot, GPTBot, ClaudeBot and PerplexityBot."
+   "All 283 sitemap pages returned OK, with a median response time of 885 ms.",
+   "Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot and other major crawlers are allowed in robots.txt.",
+   "Site-wide real-user LCP is 2257 ms (good) and CLS is 0 (good)."
   ],
   "_written_by": "claude-haiku-5-5",
   "_tokens": {
-   "in": 6248,
-   "out": 3310
+   "in": 6242,
+   "out": 3023
   },
   "notes": []
  }
