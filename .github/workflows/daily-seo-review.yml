@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "23 4 * * *"  # every day 04:23 UTC = 08:23 in Yerevan (off the hour: GitHub drops/delays many top-of-hour cron runs)
   workflow_dispatch:       # "Run workflow" button for a run on demand
+    inputs:
+      auto:
+        description: "Automatic morning trigger (cron-job.org): skip if today's review is already done"
+        type: boolean
+        default: false
 
 permissions:
   contents: write          # to save each day's data and report back to the repository
@@ -23,14 +28,29 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
 
+      # Two triggers fire each morning (GitHub's schedule and cron-job.org, since GitHub
+      # sometimes drops scheduled runs). Whichever runs second finds today's report and stops,
+      # so the team gets one review. A manual "Run workflow" (auto = false) always runs.
+      - name: Skip if today's review is already done
+        id: guard
+        if: github.event_name == 'schedule' || inputs.auto
+        run: |
+          if [ -f "reports/$(date -u +%F).md" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Today's review was already sent; nothing to do."
+          fi
+
       - uses: actions/setup-python@v7
+        if: steps.guard.outputs.skip != 'true'
         with:
           python-version: "3.12"
           cache: pip
 
       - run: pip install -r requirements.txt
+        if: steps.guard.outputs.skip != 'true'
 
       - name: Collect, analyze, review and send
+        if: steps.guard.outputs.skip != 'true'
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -39,7 +59,7 @@ jobs:
         run: python -m agent.run
 
       - name: Save today's data and report
-        if: always()
+        if: always() && steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "seo-review-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
