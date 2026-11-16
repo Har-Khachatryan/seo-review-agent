@@ -1,0 +1,474 @@
+{
+ "date": "2026-11-16",
+ "summary": {
+  "pages_in_sitemap": 283,
+  "pages_ok": 283,
+  "sitemaps": {
+   "post-sitemap.xml": 112,
+   "page-sitemap.xml": 45,
+   "comparison-sitemap.xml": 2,
+   "strategy-sitemap.xml": 36,
+   "case_studies-sitemap.xml": 35,
+   "team-sitemap.xml": 7,
+   "sb_services-sitemap.xml": 33,
+   "toolset-sitemap.xml": 12,
+   "local-sitemap.xml": 1
+  },
+  "median_response_ms": 324,
+  "internal_links_found": 535,
+  "crawler_access": {
+   "Googlebot": true,
+   "Bingbot": true,
+   "Google-Extended": true,
+   "GPTBot": true,
+   "OAI-SearchBot": true,
+   "ChatGPT-User": true,
+   "ClaudeBot": true,
+   "Claude-SearchBot": true,
+   "PerplexityBot": true,
+   "CCBot": true
+  },
+  "psi": {
+   "https://www.searchbloom.com/": {
+    "score": 77,
+    "lcp_ms": 3712,
+    "cls": 0,
+    "tbt_ms": 100,
+    "field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2350,
+     "inp_ms": 170,
+     "cls": 0.0
+    }
+   },
+   "https://www.searchbloom.com/generative-engine-optimization/": {
+    "score": 75,
+    "lcp_ms": 4276,
+    "cls": 0,
+    "tbt_ms": 311,
+    "field": null
+   },
+   "https://www.searchbloom.com/answer-engine-optimization/": {
+    "score": 68,
+    "lcp_ms": 4276,
+    "cls": 0,
+    "tbt_ms": 485,
+    "field": null
+   },
+   "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/": {
+    "score": 55,
+    "lcp_ms": 10930,
+    "cls": 0,
+    "tbt_ms": 270,
+    "field": null
+   },
+   "https://www.searchbloom.com/ecommerce-seo/": {
+    "score": 63,
+    "lcp_ms": 5939,
+    "cls": 0,
+    "tbt_ms": 81,
+    "field": null
+   }
+  },
+  "site_core_web_vitals": {
+   "overall": "AVERAGE",
+   "lcp_ms": 2162,
+   "inp_ms": 197,
+   "cls": 0.0,
+   "lcp_rating": "good",
+   "inp_rating": "good",
+   "cls_rating": "good"
+  }
+ },
+ "findings": [
+  {
+   "id": "broken_internal_links",
+   "severity": "high",
+   "kind": "links",
+   "title": "Broken internal links",
+   "detail": "3 internal link(s) point to URLs that return an error, so visitors and crawlers hit dead ends. Each sits on a live page (linked_from): fix the link there, or redirect the dead URL.",
+   "count": 3,
+   "urls": [
+    "https://www.searchbloom.com/blog/3-easy-tips-to-creating-content-people-will-share/",
+    "https://www.searchbloom.com/blog/4-old-school-seo-tactics-to-stop-now/",
+    "https://www.searchbloom.com/blog/landing-pages-for-events/"
+   ],
+   "data": {
+    "broken_links": [
+     {
+      "dead_url": "https://www.searchbloom.com/blog/3-easy-tips-to-creating-content-people-will-share/",
+      "status": 404,
+      "linked_from": "https://www.searchbloom.com/blog/brand-building-through-storytelling/"
+     },
+     {
+      "dead_url": "https://www.searchbloom.com/blog/4-old-school-seo-tactics-to-stop-now/",
+      "status": 404,
+      "linked_from": "https://www.searchbloom.com/blog/seo-is-dead/"
+     },
+     {
+      "dead_url": "https://www.searchbloom.com/blog/landing-pages-for-events/",
+      "status": 404,
+      "linked_from": "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
+     }
+    ]
+   },
+   "status": "ongoing"
+  },
+  {
+   "id": "cwv|https://www.searchbloom.com/answer-engine-optimization/",
+   "severity": "medium",
+   "kind": "performance",
+   "title": "Page speed needs work",
+   "detail": "lab LCP 4276 ms (no real-user data for this page).",
+   "count": 1,
+   "urls": [
+    "https://www.searchbloom.com/answer-engine-optimization/"
+   ],
+   "data": {
+    "score": 68,
+    "lcp_ms": 4276,
+    "cls": 0,
+    "tbt_ms": 485,
+    "field": null,
+    "origin_field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2162,
+     "inp_ms": 197,
+     "cls": 0.0
+    },
+    "runs": [
+     {
+      "score": 74,
+      "lcp_ms": 2631
+     },
+     {
+      "score": 68,
+      "lcp_ms": 4276
+     },
+     {
+      "score": 62,
+      "lcp_ms": 5965
+     }
+    ]
+   },
+   "status": "new"
+  },
+  {
+   "id": "missing_meta",
+   "severity": "medium",
+   "kind": "on-page",
+   "title": "Pages without a meta description",
+   "detail": "8 page(s) have no meta description.",
+   "count": 8,
+   "urls": [
+    "https://www.searchbloom.com/sitemap/",
+    "https://www.searchbloom.com/case-studies/ads/ecommerce-seed-store/",
+    "https://www.searchbloom.com/team/jordan-rininger/",
+    "https://www.searchbloom.com/team/elizabeth-wise/",
+    "https://www.searchbloom.com/team/jonathan-rogers/",
+    "https://www.searchbloom.com/team/jordan-conner/",
+    "https://www.searchbloom.com/team/cody-c-jensen/",
+    "https://www.searchbloom.com/team/callie-king-stevens/"
+   ],
+   "data": {},
+   "status": "ongoing"
+  },
+  {
+   "id": "h1_missing",
+   "severity": "medium",
+   "kind": "on-page",
+   "title": "Pages without an H1",
+   "detail": "7 page(s) have no H1 heading.",
+   "count": 7,
+   "urls": [
+    "https://www.searchbloom.com/awards/",
+    "https://www.searchbloom.com/contact-us/",
+    "https://www.searchbloom.com/sitemap/",
+    "https://www.searchbloom.com/team/",
+    "https://www.searchbloom.com/tools/",
+    "https://www.searchbloom.com/compare/",
+    "https://www.searchbloom.com/strategy/"
+   ],
+   "data": {},
+   "status": "ongoing"
+  },
+  {
+   "id": "cwv|https://www.searchbloom.com/generative-engine-optimization/",
+   "severity": "medium",
+   "kind": "performance",
+   "title": "Page speed needs work",
+   "detail": "lab LCP 4276 ms (no real-user data for this page).",
+   "count": 1,
+   "urls": [
+    "https://www.searchbloom.com/generative-engine-optimization/"
+   ],
+   "data": {
+    "score": 75,
+    "lcp_ms": 4276,
+    "cls": 0,
+    "tbt_ms": 311,
+    "field": null,
+    "origin_field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2162,
+     "inp_ms": 197,
+     "cls": 0.0
+    },
+    "runs": [
+     {
+      "score": 62,
+      "lcp_ms": 6002
+     },
+     {
+      "score": 79,
+      "lcp_ms": 4099
+     },
+     {
+      "score": 75,
+      "lcp_ms": 4276
+     }
+    ]
+   },
+   "status": "ongoing"
+  },
+  {
+   "id": "cwv|https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/",
+   "severity": "medium",
+   "kind": "performance",
+   "title": "Page speed needs work",
+   "detail": "lab LCP 10930 ms (no real-user data for this page).",
+   "count": 1,
+   "urls": [
+    "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/"
+   ],
+   "data": {
+    "score": 55,
+    "lcp_ms": 10930,
+    "cls": 0,
+    "tbt_ms": 270,
+    "field": null,
+    "origin_field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2162,
+     "inp_ms": 197,
+     "cls": 0.0
+    },
+    "runs": [
+     {
+      "score": 55,
+      "lcp_ms": 10930
+     },
+     {
+      "score": 74,
+      "lcp_ms": 3701
+     },
+     {
+      "score": 50,
+      "lcp_ms": 10237
+     }
+    ]
+   },
+   "status": "ongoing"
+  },
+  {
+   "id": "cwv|https://www.searchbloom.com/ecommerce-seo/",
+   "severity": "medium",
+   "kind": "performance",
+   "title": "Page speed needs work",
+   "detail": "lab LCP 5939 ms (no real-user data for this page).",
+   "count": 1,
+   "urls": [
+    "https://www.searchbloom.com/ecommerce-seo/"
+   ],
+   "data": {
+    "score": 63,
+    "lcp_ms": 5939,
+    "cls": 0,
+    "tbt_ms": 81,
+    "field": null,
+    "origin_field": {
+     "overall": "AVERAGE",
+     "lcp_ms": 2162,
+     "inp_ms": 197,
+     "cls": 0.0
+    },
+    "runs": [
+     {
+      "score": 83,
+      "lcp_ms": 2538
+     },
+     {
+      "score": 61,
+      "lcp_ms": 4160
+     },
+     {
+      "score": 63,
+      "lcp_ms": 5939
+     }
+    ]
+   },
+   "status": "ongoing"
+  },
+  {
+   "id": "long_meta",
+   "severity": "low",
+   "kind": "on-page",
+   "title": "Meta descriptions likely cut off",
+   "detail": "44 meta description(s) are longer than 165 characters.",
+   "count": 44,
+   "urls": [
+    "https://www.searchbloom.com/blog/5-steps-to-better-meta-descriptions/",
+    "https://www.searchbloom.com/blog/seo-not-the-sole-path-to-site-traffic/",
+    "https://www.searchbloom.com/blog/three-cheers-for-negative-reviews/",
+    "https://www.searchbloom.com/blog/want-big-ppc-results-think-small/",
+    "https://www.searchbloom.com/blog/meta-descriptions-improve-seo/",
+    "https://www.searchbloom.com/blog/think-like-the-customer/",
+    "https://www.searchbloom.com/blog/social-reputation-management/",
+    "https://www.searchbloom.com/blog/15-seo-tips-for-ecommerce-seo/",
+    "https://www.searchbloom.com/blog/4-pinterest-tips-for-non-e-commerce-companies/",
+    "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
+   ],
+   "data": {},
+   "status": "ongoing"
+  },
+  {
+   "id": "long_title",
+   "severity": "low",
+   "kind": "on-page",
+   "title": "Titles likely cut off in results",
+   "detail": "41 title(s) are longer than 65 characters.",
+   "count": 41,
+   "urls": [
+    "https://www.searchbloom.com/blog/how-to-make-sure-your-seo-delivers-the-roi-you-are-seeking/",
+    "https://www.searchbloom.com/blog/ecommerce-on-page-seo-tactics-you-need-to-pay-attention-to/",
+    "https://www.searchbloom.com/blog/6-ways-smaller-companies-can-keep-up-with-ecommerce-giants/",
+    "https://www.searchbloom.com/blog/why-topical-authority-may-be-the-most-critical-aspect-of-seo/",
+    "https://www.searchbloom.com/blog/seo-content-frameworks-guide/",
+    "https://www.searchbloom.com/blog/38-conversion-rate-optimization-recommendations-tips-to-test-searchbloom/",
+    "https://www.searchbloom.com/blog/google-search-great-decoupling-clicks-impressions/",
+    "https://www.searchbloom.com/blog/information-gain-score/",
+    "https://www.searchbloom.com/blog/embedding-audit-seo/",
+    "https://www.searchbloom.com/blog/information-gain-density/"
+   ],
+   "data": {},
+   "status": "ongoing"
+  },
+  {
+   "id": "h1_multiple",
+   "severity": "low",
+   "kind": "on-page",
+   "title": "Pages with more than one H1",
+   "detail": "2 page(s) have several H1 headings.",
+   "count": 2,
+   "urls": [
+    "https://www.searchbloom.com/blog/surfer-ai-content-review-the-ultimate-guide/",
+    "https://www.searchbloom.com/blog/ultimate-guide-to-shopify-seo-6-steps-for-success/"
+   ],
+   "data": {},
+   "status": "ongoing"
+  }
+ ],
+ "resolved": [
+  {
+   "id": "cwv_site",
+   "severity": "medium",
+   "kind": "performance",
+   "title": "Site-wide Core Web Vitals need work",
+   "detail": "Real users across the whole site: INP 206 ms needs improvement (good is 200 ms or less).",
+   "count": 0,
+   "urls": [],
+   "data": {
+    "overall": "AVERAGE",
+    "lcp_ms": 2161,
+    "inp_ms": 206,
+    "cls": 0.0
+   },
+   "status": "resolved"
+  }
+ ],
+ "first_run": false,
+ "review": {
+  "status": "amber",
+  "headline": "The site is up and healthy overall, but three live blog posts link to dead pages and a few pages are slow or missing on-page basics.",
+  "priorities": [
+   {
+    "title": "Three internal links point to 404 pages",
+    "severity": "high",
+    "is_new": false,
+    "why": "Visitors and crawlers hit dead ends from three live posts, which wastes internal link equity and crawl effort.",
+    "action": "Editors should update the links on the three source pages to working URLs, or developers should add redirects from the dead URLs.",
+    "urls": [
+     "https://www.searchbloom.com/blog/brand-building-through-storytelling/",
+     "https://www.searchbloom.com/blog/seo-is-dead/",
+     "https://www.searchbloom.com/blog/5-cro-tips-you-can-use-now/"
+    ]
+   },
+   {
+    "title": "Answer-engine-optimization page is slow in lab tests",
+    "severity": "medium",
+    "is_new": true,
+    "why": "Median lab LCP was 4276 ms across three runs (2631 to 5965 ms), and this page has no real-user data yet.",
+    "action": "Developers should check the largest element and image loading on this page, then re-test in PageSpeed Insights.",
+    "urls": [
+     "https://www.searchbloom.com/answer-engine-optimization/"
+    ]
+   },
+   {
+    "title": "Best AI SEO agency page has very slow lab LCP",
+    "severity": "medium",
+    "is_new": false,
+    "why": "Lab LCP was 10930 ms with a score of 55, the slowest page in today's test, and two of three runs were above 10 seconds.",
+    "action": "Developers should compress or lazy-load the largest above-the-fold assets on this page, then re-run PageSpeed Insights.",
+    "urls": [
+     "https://www.searchbloom.com/strategy/best-ai-seo-agency-companies-services-usa/"
+    ]
+   },
+   {
+    "title": "Seven pages have no H1 heading",
+    "severity": "medium",
+    "is_new": false,
+    "why": "Pages without an H1 send weaker topic signals to search engines and AI systems, including hub pages like /strategy/ and /team/.",
+    "action": "The content team should add one descriptive H1 to each listed page, and the web team should check the page templates that produce them.",
+    "urls": [
+     "https://www.searchbloom.com/awards/",
+     "https://www.searchbloom.com/contact-us/",
+     "https://www.searchbloom.com/sitemap/",
+     "https://www.searchbloom.com/team/",
+     "https://www.searchbloom.com/tools/",
+     "https://www.searchbloom.com/compare/",
+     "https://www.searchbloom.com/strategy/"
+    ]
+   },
+   {
+    "title": "Eight pages have no meta description",
+    "severity": "medium",
+    "is_new": false,
+    "why": "Without a meta description, search engines write their own snippet, which may not match the page's purpose.",
+    "action": "Marketing should add a unique description of about 155 characters or fewer to each listed page in the CMS.",
+    "urls": [
+     "https://www.searchbloom.com/sitemap/",
+     "https://www.searchbloom.com/case-studies/ads/ecommerce-seed-store/",
+     "https://www.searchbloom.com/team/jordan-rininger/",
+     "https://www.searchbloom.com/team/elizabeth-wise/",
+     "https://www.searchbloom.com/team/jonathan-rogers/",
+     "https://www.searchbloom.com/team/jordan-conner/",
+     "https://www.searchbloom.com/team/cody-c-jensen/",
+     "https://www.searchbloom.com/team/callie-king-stevens/"
+    ]
+   }
+  ],
+  "changes": "One new item: the answer-engine-optimization page was flagged for lab LCP of 4276 ms. The site-wide Core Web Vitals item cleared, and real-user data is now good on all three measures (LCP 2162 ms, INP 197 ms, CLS 0.0). Everything else is unchanged from yesterday.",
+  "healthy": [
+   "All 283 sitemap pages returned OK, with a median response time of 324 ms.",
+   "Real-user Core Web Vitals for the whole site are rated good.",
+   "Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot and other major crawlers are allowed in robots.txt.",
+   "No monitoring problems were reported."
+  ],
+  "_written_by": "claude-haiku-5-5",
+  "_tokens": {
+   "in": 6054,
+   "out": 2713
+  },
+  "notes": []
+ }
+}
